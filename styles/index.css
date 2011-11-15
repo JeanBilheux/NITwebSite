@@ -257,11 +257,11 @@ body {
 }
 #kwick_3 {
 	background-color: #c26468;
-	border:ridge green;
+	border:ridge blue;
 }
 #kwick_4 { 
 	background-color: #bf7cc7;
-	border:ridge violet;
+	border:ridge red;
 }
 
 .kwicks.horizontal #kwick_4 {
