@@ -52,6 +52,7 @@ body {
 	background: #0e564e;
 /*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
 	background: #0e564e url("../images/side_background.png") no-repeat 50%; 
+	margin: 0;
 }
 #container {
 	width: 950px;
@@ -279,10 +280,26 @@ body {
 	margin-right: 5px;
 }
 
+#hr {
+	padding-top: 30px;
+}
 
+.article p {
+	text-align:left;
+	padding: 0px 20px;
+}
 
+h3 {
+	color: black;
+	text-align:left;
+	padding-left: 20px;
+}
 
-
+h4 {
+	color: red;
+	text-align:left;
+	padding-left: 20px;
+}
 
 
 
