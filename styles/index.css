@@ -48,6 +48,7 @@ a:active {
  ********************/
 
 body {
+	margin:0px;
 	text-align: center;
 	background: #0e564e;
 /*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
