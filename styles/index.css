@@ -64,14 +64,14 @@ body {
 	margin: 0px auto;
 }
 #header {
-	height: 150px;
+	height: 200px;
 	background: #0e564e url("../images/background_menu.png") repeat-y scroll left top;
 }
 /* Create a shadow overlay */
 #header div {
 	width: 950px;
-	height: 150px;
-	background: transparent url("../images/mask_menu_background.png") no-repeat scroll left top;
+	height: 200px;
+	background: transparent url("../images/mask_menu_background_2.png") no-repeat scroll left top;
 }
 #header h3 {
 	padding-top:20px;
@@ -79,7 +79,10 @@ body {
 	color: white;
 }
 #contact {
-	float: right;
+/*	float: right;*/
+	position:relative;
+	top:-35px;
+	left:-10px;
 	text-align: right;
 	padding-right: 20px;
 	font-size: small;
@@ -92,7 +95,7 @@ body {
 
 #nav-shadow {
 	margin: 0 auto 30px auto;
-	padding: 50px 0 0 127px;
+	padding: 60px 0 0 127px;
 	width: 900px;
 	min-height: 150px;
 	text-align: center;

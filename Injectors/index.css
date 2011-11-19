@@ -70,3 +70,8 @@ blockquote {
 q {
 	font-style:italic;
 }
+
+#top_of_page {
+	font-size:small;
+	color:red;
+}

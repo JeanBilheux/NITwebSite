@@ -6,6 +6,11 @@ $(document).ready(function() {
 		duration : 1500,
 		easing : 'easeOutBounce'
 	});
+	
+	 $('a[href=#]').click(function(){
+    $.scrollTo(0,'slow');
+    	return false;
+  });
 
 $("#pageflip").hover(function() { //On hover...
 	$("#pageflip img , .msg_block").stop()
