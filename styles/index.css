@@ -50,8 +50,13 @@ a:active {
  ********************/
 
 body {
+<<<<<<< HEAD
 	margin: 0px;
 	/*	text-align: center;*/
+=======
+	margin:0px;
+/*	text-align: center;*/
+>>>>>>> 102623d62b3f4c9e3d5f5c4bf866eece487cb39d
 	background: #0e564e;
 	/*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
 	background: #0e564e url("../images/side_background.png") no-repeat 50%;
