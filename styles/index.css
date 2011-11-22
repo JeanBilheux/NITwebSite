@@ -20,7 +20,6 @@ a:hover {
 a:active {
 	color: black
 }
-
 /******************
  * page peel
  ******************/
@@ -28,39 +27,42 @@ a:active {
 	position: relative;
 }
 #pageflip img {
-	width: 50px; height: 52px;
+	width: 50px;
+	height: 52px;
 	z-index: 99;
 	position: absolute;
-	right: 0; top: 0;
+	right: 0;
+	top: 0;
 	-ms-interpolation-mode: bicubic;
 }
 #pageflip .msg_block {
-	width: 50px; height: 50px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
 	z-index: 50;
-	right: 0; top: 0;
+	right: 0;
+	top: 0;
 	background: url("../images/mini_iMars_s3.png") no-repeat right top;
 	text-indent: -9999px;
 }
-
 /*********************
  * main document
  ********************/
 
 body {
-	margin:0px;
-	text-align: center;
+	margin: 0px;
+	/*	text-align: center;*/
 	background: #0e564e;
-/*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
-	background: #0e564e url("../images/side_background.png") no-repeat 50%; 
+	/*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
+	background: #0e564e url("../images/side_background.png") no-repeat 50%;
 	margin: 0;
 }
 #container {
 	width: 950px;
 	height: 1100px;
 	background-color: #fff;
-/*	background-color: #8acecf; */
-    background-color: #fdfde0 ;
+	/*	background-color: #8acecf; */
+	background-color: #fdfde0;
 	margin: 0px auto;
 }
 #header {
@@ -74,20 +76,19 @@ body {
 	background: transparent url("../images/mask_menu_background_2.png") no-repeat scroll left top;
 }
 #header h3 {
-	padding-top:20px;
+	padding-top: 20px;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color: white;
 }
 #contact {
-/*	float: right;*/
-	position:relative;
-	top:-35px;
-	left:-10px;
+	/*	float: right;*/
+	position: relative;
+	top: -35px;
+	left: -10px;
 	text-align: right;
 	padding-right: 20px;
 	font-size: small;
 	font-family: Arial, Verdana, sans-serif;
-
 }
 /**********************
  * Menu buttons
@@ -99,26 +100,26 @@ body {
 	width: 900px;
 	min-height: 150px;
 	text-align: center;
-/*	background: url("../images/page-shadow.jpg") top center no-repeat; */
+	/*	background: url("../images/page-shadow.jpg") top center no-repeat; */
 	list-style: none;
 }
 #nav-shadow li {
 	margin-right: 15px;
 	margin-top: 60px; /*distance from top to buttons*/
-/*	width: 81px; */ 
-	width: 150px; 
+	/*	width: 81px; */
+	width: 150px;
 	height: 85px;  /*distance between buttons and shadow*/
 	position: relative;
 	float: left;
 }
 #nav-shadow a, #nav-shadow a:visited, #nav-shadow a, #nav-shadow a:hover {
 	margin: 0 auto;
-/*	width: 59px; */
+	/*	width: 59px; */
 	width: 134px;
-	height: 59px; 
+	height: 59px;
 	text-indent: -9999px;
 	overflow: hidden;
-	border:0;
+	border: 0;
 	background: url("../images/icons.png") no-repeat;
 	display: block;
 	position: relative;
@@ -149,7 +150,6 @@ body {
 	left: 0;
 	z-index: 1;
 }
-
 /*** showroom ***/
 .showroom {
 	float: left;
@@ -183,15 +183,14 @@ body {
 	top: 0;
 	left: 0;
 }
-
 .show_content .txt_content {
-	border:0px solid black;
-	font-size:15px;
-	left:21px;
-	position:absolute;
-	top:70px; 
-	width:250px;
-	z-index:2;
+	border: 0px solid black;
+	font-size: 15px;
+	left: 21px;
+	position: absolute;
+	top: 70px;
+	width: 250px;
+	z-index: 2;
 }
 .show_content .txt_content p {
 	padding-bottom: 2px;
@@ -216,15 +215,13 @@ body {
  * line above showroom
  **************/
 #hr {
-	border-bottom: 2px red;	
-/*	border-top:double red; */
-	height:22px;
-}	
-
-#space {
-	height:10px;
+	border-bottom: 2px red;
+	/*	border-top:double red; */
+	height: 22px;
 }
-
+#space {
+	height: 10px;
+}
 /*****************
  * kwick
  *****************/
@@ -236,7 +233,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.kwicks li{
+.kwicks li {
 	/*do not change these */
 	display: block;
 	overflow: hidden;
@@ -244,67 +241,56 @@ body {
 }
 .kwicks.horizontal li {
 	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
-	margin-right: 5px; /*Set to same as spacing option. */	
+	margin-right: 5px; /*Set to same as spacing option. */
 	float: left;
 }
-.kwicks.vertical  li{
+.kwicks.vertical  li {
 	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
-	margin-bottom: 5px; /*Set to same as spacing option. */	
+	margin-bottom: 5px; /*Set to same as spacing option. */
 }
-
-#kwick_1 { 
+#kwick_1 {
 	background-color: #53b388;
-	border:ridge blue;
+	border: ridge blue;
 }
 #kwick_2 {
 	background-color: #5a69a9;
-	border:ridge red;
+	border: ridge red;
 }
 #kwick_3 {
 	background-color: #c26468;
-	border:ridge blue;
+	border: ridge blue;
 }
-#kwick_4 { 
+#kwick_4 {
 	background-color: #bf7cc7;
-	border:ridge red;
+	border: ridge red;
 }
-
 .kwicks.horizontal #kwick_4 {
 	margin-right: 0; /* cancel margin on last kiwck (if you set a margin above) */
 }
-
 .kwicks.vertical #kwick_4 {
 	margin-bottom: 0; /* cancel margin on last kiwck (if you set a margin above) */
 }
-
 .kwicks li {
 	float: left;
 	width: 233px;
 	height: 300px;
 	margin-right: 5px;
 }
-
 #hr {
 	padding-top: 30px;
 }
-
 .article p {
-	text-align:left;
+	text-align: left;
 	padding: 0px 20px;
 }
-
 h3 {
 	color: black;
-	text-align:left;
+	text-align: left;
 	padding-left: 20px;
 }
-
 h4 {
 	color: red;
-	text-align:left;
+	text-align: left;
 	padding-left: 20px;
 }
-
-
-
 
