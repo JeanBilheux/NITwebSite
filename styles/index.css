@@ -42,7 +42,7 @@ a:active {
 	z-index: 50;
 	right: 0;
 	top: 0;
-	background: url("../images/mini_iMars_s3.png") no-repeat right top;
+	background: url("../images/welcome_onglet.png") no-repeat right top;
 	text-indent: -9999px;
 }
 /*********************
@@ -50,13 +50,8 @@ a:active {
  ********************/
 
 body {
-<<<<<<< HEAD
 	margin: 0px;
 	/*	text-align: center;*/
-=======
-	margin:0px;
-/*	text-align: center;*/
->>>>>>> 102623d62b3f4c9e3d5f5c4bf866eece487cb39d
 	background: #0e564e;
 	/*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
 	background: #0e564e url("../images/side_background.png") no-repeat 50%;
@@ -155,67 +150,7 @@ body {
 	left: 0;
 	z-index: 1;
 }
-/*** showroom ***/
-.showroom {
-	float: left;
-	clear: left;
-	width: 950px;
-	height: 499px;
-	border-bottom: 0px solid #b1b1b3;
-}
-.viewport {
-	float: left;
-	padding-left: 2px;
-	display: inline;
-	position: relative;
-	width: 950px;
-}
-.show_content {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 864px;
-	height: 499px;
-}
-.showroom .on {
-	display: block;
-}
-.show_content img {
-	position: absolute;
-	display: block;
-	z-index: 1;
-	top: 0;
-	left: 0;
-}
-.show_content .txt_content {
-	border: 0px solid black;
-	font-size: 15px;
-	left: 21px;
-	position: absolute;
-	top: 70px;
-	width: 250px;
-	z-index: 2;
-}
-.show_content .txt_content p {
-	padding-bottom: 2px;
-	color: #7f6d38;
-}
-.show_content .txt_content p.large_txt {
-	padding-bottom: 2px;
-	color: black;
-	font-family: Georgia, Arial, san-serif;
-	font-size: 20px;
-	font-style: italic;
-	line-height: 20px;
-}
-.show_content .txt_content a {
-	color: black;
-	text-decoration: none;
-}
-.show_content .txt_content a:hover {
-	text-decoration: underline;
-}
+
 /**************
  * line above showroom
  **************/
@@ -227,60 +162,7 @@ body {
 #space {
 	height: 10px;
 }
-/*****************
- * kwick
- *****************/
 
-.kwicks {
-	/* recommended styles for kwicks ul container */
-	list-style: none;
-	position: relative;
-	margin: 0;
-	padding: 0;
-}
-.kwicks li {
-	/*do not change these */
-	display: block;
-	overflow: hidden;
-	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
-}
-.kwicks.horizontal li {
-	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
-	margin-right: 5px; /*Set to same as spacing option. */
-	float: left;
-}
-.kwicks.vertical  li {
-	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
-	margin-bottom: 5px; /*Set to same as spacing option. */
-}
-#kwick_1 {
-	background-color: #53b388;
-	border: ridge blue;
-}
-#kwick_2 {
-	background-color: #5a69a9;
-	border: ridge red;
-}
-#kwick_3 {
-	background-color: #c26468;
-	border: ridge blue;
-}
-#kwick_4 {
-	background-color: #bf7cc7;
-	border: ridge red;
-}
-.kwicks.horizontal #kwick_4 {
-	margin-right: 0; /* cancel margin on last kiwck (if you set a margin above) */
-}
-.kwicks.vertical #kwick_4 {
-	margin-bottom: 0; /* cancel margin on last kiwck (if you set a margin above) */
-}
-.kwicks li {
-	float: left;
-	width: 233px;
-	height: 300px;
-	margin-right: 5px;
-}
 #hr {
 	padding-top: 30px;
 }
@@ -299,3 +181,6 @@ h4 {
 	padding-left: 20px;
 }
 
+#content {
+/*	border: 3px dashed red;*/
+}

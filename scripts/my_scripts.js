@@ -1,12 +1,5 @@
 $(document).ready(function() {
 
-	$('.kwicks').kwicks({
-		max : 373,
-		spacing : 5,
-		duration : 1500,
-		easing : 'easeOutBounce'
-	});
-
 	$('a[href=#]').click(function() {
 		$.scrollTo(0, 'slow');
 		return false;
