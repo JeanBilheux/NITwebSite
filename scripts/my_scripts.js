@@ -24,6 +24,4 @@ $(document).ready(function() {
 		//Note this one retracts a bit faster (to prevent glitching in IE)
 	});
 
-	$("#showroom_right a").blend();
-
 });
