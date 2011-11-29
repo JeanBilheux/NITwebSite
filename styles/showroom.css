@@ -21,6 +21,7 @@
 	display: block;
 	width:250px;
 	height:50px;
+	margin-left: 20px;
 	margin-bottom:6px;
 	background-image: url('../images/showroom_without_arrow.png');
 	background-repeat:no-repeat;
@@ -29,6 +30,7 @@
 
 #showroom_right a.showroom_hover {
 	background-image: url("../images/showroom_with_arrow.png");
+	margin-left: 0px;
 }
 
 #showroom_right a.showroom_not_hover {
