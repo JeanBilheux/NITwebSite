@@ -35,6 +35,13 @@
 	background-image: url("../images/showroom_without_arrow.png");
 }
 
+.showroom_text {
+	text-align: right;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
 
 /*#showroom_right a:hover, #showroom_right a.hover {
 	background-image: url("../images/showroom_with_arrow.png");
