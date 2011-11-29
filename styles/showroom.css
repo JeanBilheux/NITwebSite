@@ -1,0 +1,40 @@
+#showroom {
+	height: 325px;
+/*	border: 1px dashed blue;*/
+	margin: 20px;
+}
+
+#showroom_left {
+	height: inherit;
+	border: 2px solid red;
+	border-right: 0;
+}
+
+#showroom_right {
+	height: 100%;
+	float: right;
+	width: 250px;
+/*	border: 2px solid green;*/
+}
+
+#showroom_right a {
+	display: block;
+	width:250px;
+	height:50px;
+	margin-bottom:6px;
+	background-image: url('../images/showroom_without_arrow.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+
+#showroom_right a:hover, #showroom_right a.hover {
+	background-image: url("../images/showroom_with_arrow.png");
+}
+
+/*#showroom_legend_1{
+	background-image: url("../images/showroom_without_arrow.png");
+}
+#showroom_legend_1:hover, #showroom_legend_1.hover {
+	background-image: url("../images/showroom_with_arrow.png");
+}*/
