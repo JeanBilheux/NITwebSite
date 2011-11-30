@@ -1,0 +1,41 @@
+#faq_menu {
+/*	width:200px;*/
+margin-right: 40px;
+}
+
+#faq_menu li{
+	cursor: pointer;
+	background:url(../images/accordion_bg.png) repeat-x;
+	font-weight:bold;
+	color:#015287;
+	border:1px solid #b2b2b2;
+	margin-bottom:2px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 4px 8px;
+}
+
+#faq_menu li.active{
+	color:#D15600
+}
+#faq_menu li ul{
+	padding:0;
+	margin:10px 0 0 0;
+}
+
+#faq_menu li.active li{
+	text-indent:0;
+}
+#faq_menu li li{
+	font-weight: normal;
+	background:none;
+	border:0;
+}
+#answers {
+	margin:40px;
+	border: 1px solid red;
+	height: 200px;
+}
