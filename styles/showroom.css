@@ -6,8 +6,9 @@
 
 #showroom_left {
 	height: inherit;
-	border: 2px solid red;
+/*	border: 2px solid red;*/
 	border-right: 0;
+/*	background: url("../images/showroom_lamp_left.png") no-repeat top left;*/
 }
 
 #showroom_right {
@@ -56,3 +57,11 @@
 #showroom_legend_1:hover, #showroom_legend_1.hover {
 	background-image: url("../images/showroom_with_arrow.png");
 }*/
+
+.iMars {
+	background: url(../images/showroom_iMars_left.png) no-repeat left top;
+}
+
+.lamp {
+	background: url(../images/showroom_lamp_left.png) no-repeat left top;
+}
