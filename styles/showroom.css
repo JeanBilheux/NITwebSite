@@ -41,22 +41,10 @@
 
 .showroom_text {
 	text-align: right;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: bold;
 	padding: 10px;
 }
-
-
-/*#showroom_right a:hover, #showroom_right a.hover {
-	background-image: url("../images/showroom_with_arrow.png");
-}*/
-
-/*#showroom_legend_1{
-	background-image: url("../images/showroom_without_arrow.png");
-}
-#showroom_legend_1:hover, #showroom_legend_1.hover {
-	background-image: url("../images/showroom_with_arrow.png");
-}*/
 
 .iMars {
 	background: url(../images/showroom_iMars_left.png) no-repeat left top;
