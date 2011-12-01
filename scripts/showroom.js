@@ -64,5 +64,6 @@ $('#showroom_legend_6').mouseover(function() {
 	$(window).bind("load", function() {
 		$('#showroom_left').addClass('lamp').removeClass('iMars');
 		$('#showroom_legend_1').addClass('showroom_hover');
+		_current_class = _show_classes[0];
 	})
 });
