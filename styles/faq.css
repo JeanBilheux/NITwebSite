@@ -5,7 +5,8 @@ margin-right: 40px;
 
 #faq_menu li{
 	cursor: pointer;
-	background:url(../images/accordion_bg.png) repeat-x;
+/*	background:url(../images/accordion_bg.png) repeat-x;*/
+	background: #94c5eb url(../images/arrows.png) no-repeat right top;
 	font-weight:bold;
 	color:#015287;
 	border:1px solid #b2b2b2;
@@ -13,8 +14,8 @@ margin-right: 40px;
 	list-style-image:none;
 	list-style-position:outside;
 	list-style-type:none;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 	padding: 4px 8px;
 }
 
@@ -23,7 +24,8 @@ margin-right: 40px;
 }
 #faq_menu li ul{
 	padding:0;
-	margin:10px 0 0 0;
+/*	margin: 0 0 0;*/
+	background-color:#fff;
 }
 
 #faq_menu li.active li{
@@ -33,6 +35,7 @@ margin-right: 40px;
 	font-weight: normal;
 	background:none;
 	border:0;
+/*	border-bottom: 1px dashed black;*/
 }
 #answers {
 	margin:40px;
