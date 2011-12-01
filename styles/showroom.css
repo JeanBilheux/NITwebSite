@@ -23,8 +23,8 @@
 	width:250px;
 	height:50px;
 	margin-left: 20px;
-	margin-bottom:5px;
-	margin-top: 2px;
+	margin-bottom:0px;
+	margin-top: 0px;
 	background-image: url('../images/showroom_without_arrow.png');
 	background-repeat:no-repeat;
 	background-position:left top;
@@ -44,6 +44,7 @@
 	font-size: 18px;
 	font-weight: bold;
 	padding: 10px;
+	color: white;
 }
 
 .iMars {
