@@ -5,7 +5,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$("#pageflip").hover(function() {//On hover...
+	$("#pageflip").hoverIntent(function() {//On hover...
 		$("#pageflip img , .msg_block").stop().animate({//Animate and expand the image and the msg_block (Width + height)
 			width : '307px',
 			height : '319px'

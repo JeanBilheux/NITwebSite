@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 	// Animate buttons, shrink and fade shadow
 
-	$("#nav-shadow li").hover(function() {
+	$("#nav-shadow li").hoverIntent(function() {
 		var e = this;
 		$(e).find("a").stop().animate({
 			marginTop : "-14px"

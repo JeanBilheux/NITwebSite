@@ -6,7 +6,8 @@ margin-right: 40px;
 #faq_menu li{
 	cursor: pointer;
 /*	background:url(../images/accordion_bg.png) repeat-x;*/
-	background: #94c5eb url(../images/arrows.png) no-repeat right top;
+/*	background: #94c5eb url(../images/arrows.png) no-repeat right top;*/
+	background: #04c5eb;
 	font-weight:bold;
 	color:#015287;
 	border:1px solid #b2b2b2;
@@ -26,6 +27,13 @@ margin-right: 40px;
 	padding:0;
 /*	margin: 0 0 0;*/
 	background-color:#fff;
+}
+
+#faq_menu .second {
+/*	background: #94c5eb url(../images/arrows.png) no-repeat right top;*/
+	background: #04c5eb;
+	border:1px solid #b2b2b2;
+	font-weight: bold;
 }
 
 #faq_menu li.active li{
