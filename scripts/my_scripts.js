@@ -24,4 +24,14 @@ $(document).ready(function() {
 		//Note this one retracts a bit faster (to prevent glitching in IE)
 	});
 
+	$('#info').tabs({
+		event : 'mouseover',
+		fx : {
+			opacity : 'toggle',
+			duration : 'fast'
+		},
+		spinner : 'Loading...',
+		cache : true
+	});
+
 });

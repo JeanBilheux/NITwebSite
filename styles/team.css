@@ -1,5 +1,5 @@
 div.member {
-	border-bottom:double red;
+	border-bottom:solid blue;
 	clear: right;
 	margin: 20px;
 }
