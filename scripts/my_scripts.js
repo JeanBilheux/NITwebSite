@@ -33,5 +33,5 @@ $(document).ready(function() {
 		spinner : 'Loading...',
 		cache : true
 	});
-
-});
+	
+	});

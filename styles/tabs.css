@@ -1,6 +1,6 @@
 #info {
 	width: 481px;
-	height: 480px;
+	height: 485px;
 	border: 1px solid #999;
 	padding: 0px 10px;
 	background-color: #fff;
@@ -42,6 +42,10 @@
 	width: 200px;
 	padding: 0px 85px;
 }
-.ui-tabs {
+/*.ui-tabs {
 	height: 800px;
+}*/
+
+#info {
+	margin-top: -20px;
 }
