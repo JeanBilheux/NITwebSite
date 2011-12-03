@@ -1,13 +1,13 @@
 #info {
 	width: 481px;
-	height: 400px;
+	height: 480px;
 	border: 1px solid #999;
 	padding: 0px 10px;
 	background-color: #fff;
 }
 #info p {
 	width: inherit;
-/*	background-color: inherit;*/
+	/*	background-color: inherit;*/
 }
 #info-nav {
 	margin: 0;
@@ -33,14 +33,15 @@
 #celebs {
 	clear: both;
 }
-
 #tab {
-	position:relative;
-	left:30px;
-	top:10px;
+	position: relative;
+	left: 30px;
+	top: 10px;
 }
-
 #info-nav > li {
 	width: 200px;
 	padding: 0px 85px;
+}
+.ui-tabs {
+	height: 800px;
 }

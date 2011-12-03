@@ -55,3 +55,8 @@ margin-right: 40px;
 	margin: 20px;
 	margin-top: 40px;
 }
+
+#accordion div h3 {
+	background: #fff;
+}
+
