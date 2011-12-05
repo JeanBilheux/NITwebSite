@@ -7,15 +7,13 @@
 }
 #info p {
 	width: inherit;
-	/*	background-color: inherit;*/
 }
 #info-nav {
 	margin: 0;
 	padding: 3px 0;
 	width: 100%;
 	list-style: none;
-}
-#info-nav li {
+}#info-nav li {
 	display: inline;
 	background: #ccc;
 	border: 1px solid #888;
@@ -26,6 +24,7 @@
 #info-nav li a:hover {
 	color: #d15600;
 }
+
 #info-nav li.current {
 	background: #fff;
 	padding-bottom: 4px;
@@ -34,17 +33,15 @@
 	clear: both;
 }
 #tab {
-	position: relative;
+/*	position: absolute;*/  /*This uncommented made the mouseover of the 
+    right bottom part failed */
 	left: 30px;
 	top: 10px;
-}
+	margin-left: 20px;
 #info-nav > li {
 	width: 200px;
 	padding: 0px 85px;
 }
-/*.ui-tabs {
-	height: 800px;
-}*/
 
 #info {
 	margin-top: -20px;

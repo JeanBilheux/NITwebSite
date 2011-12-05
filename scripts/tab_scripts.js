@@ -10,4 +10,7 @@ $(document).ready(function(){
     $('#info ' + clicked).fadeIn('fast');
     e.preventDefault();
   }).eq(0).addClass('current');
+  
+  	$('#info').tabs().tabs('rotate',3500);
+
 });
