@@ -23,15 +23,14 @@ $(document).ready(function() {
 		}, 200);
 		//Note this one retracts a bit faster (to prevent glitching in IE)
 	});
-
 	// $('#info').tabs({
-		// event : 'mouseover',
-		// fx : {
-			// opacity : 'toggle',
-			// duration : 'fast'
-		// },
-		// spinner : 'Loading...',
-		// cache : true
+	// event : 'mouseover',
+	// fx : {
+	// opacity : 'toggle',
+	// duration : 'fast'
+	// },
+	// spinner : 'Loading...',
+	// cache : true
 	// });
-		
-	});
+
+});
