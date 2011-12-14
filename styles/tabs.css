@@ -4,6 +4,7 @@
 	border: 1px solid #999;
 	padding: 0px 10px;
 	background-color: #fff;
+	font-size: 0.8em;
 }
 #info p {
 	width: inherit;
@@ -47,4 +48,12 @@
 
 #info {
 	margin-top: -20px;
+}
+
+div#tab{
+	text-align:center;
+}
+
+#contain {
+	font-size: 0.8em;
 }
