@@ -15,6 +15,7 @@
 	height: 100%;
 	float: right;
 	width: 250px;
+	overflow: hidden;
 /*	border: 2px solid green;*/
 }
 
@@ -44,13 +45,14 @@
 	font-size: 18px;
 	font-weight: bold;
 	padding: 10px;
+	padding-right: 30px;
 	color: white;
 }
 
 .iMars {
-	background: url(../images/showroom_iMars_left.png) no-repeat left top;
+	background: url("../images/showroom_iMars_left.png") no-repeat left top;
 }
 
 .lamp {
-	background: url(../images/showroom_lamp_left.png) no-repeat left top;
+	background: url("../images/showroom_lamp_left.png") no-repeat left top;
 }
