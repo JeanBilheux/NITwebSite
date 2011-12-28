@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<head>
+	
+	<meta name="description" content="The Slidorion is a great new jQuery plugin built to combine an image slider and an accordion. Accompanied by a range of features and effects, the Slidorion a fantastic and slick plugin that is compatible with all browsers.">
+	<meta name="author" content="Ben Holland">
+	
+	<title>Slidorion, A jQuery Plugin | jQuery Image Slider and jQuery Accordion</title>
+	
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/slidorion.css" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,700' rel='stylesheet' type='text/css'>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.slidorion.min.js"></script>
+	
+    <script>
+	$(document).ready(function(){
+		
+		$('#slidorion').slidorion();
+		
+		$('.effects').hide();
+		$('.more-effects').click(function(e){
+			$('.effects').slideToggle();
+			e.preventDefault();
+		});
+	});
+	function trackDownload(){_gaq.push(['_trackPageview', '/downloads/slidorion']);}
+	</script>
+	<script type="text/javascript">
+	  window.___gcfg = {lang: 'en-GB'};
+	  (function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=250647338304374";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	
+</head>
+
+<body>
+	
+	<div id="header"><h1>SLIDORION</h1></div>
+	
+	<div id="slidorion">
+		
+		<div id="slider">
+			<div class="slider-image" rel="section1">
+				<img src="img/kung-fu-panda.jpg" width="500" height="400" />
+			</div>
+			<div class="slider-image" rel="section2">
+				<img src="img/the-dark-knight.jpg" width="500" height="400" />
+			</div>
+			<div class="slider-image" rel="section3">
+				<img src="img/hot-fuzz.jpg" width="500" height="400" />
+			</div>
+		</div>
+		
+		<div id="accordion">
+			<div class="header"><a class="slider-link" rel="section1">Kung Fu Panda 2</a></div>
+			<div class="content">
+				<p>In the Valley of Peace, Po Ping is revelling in his fulfilled dreams as he serves as the fabled Dragon Warrior protecting his home with his heroes now his closest friends. However, Po and company learn that the murderous Lord Shen of Gongman City is threatening the land with a fearsome new weapon that could mean the end of kung fu forever.</p>
+				<a href="http://www.imdb.com/title/tt1302011/">Read more</a>
+			</div>
+			<div class="header"><a class="slider-link" rel="section2">The Dark Knight</a></div>
+			<div class="content">
+				<p>Batman raises the stakes in his war on crime. With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the city streets. But they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as The Joker.</p>
+				<a href="http://www.imdb.com/title/tt0468569/">Read more</a>
+			</div>
+			<div class="header"><a class="slider-link" rel="section3">Hot Fuzz</a></div>
+			<div class="content">
+				<p>Top London cop, PC Nicholas Angel is good. Too good. And to stop the rest of his team looking bad, he is reassigned to the quiet town of Sandford. Everything seems quiet for Angel, until two actors are found decapitated. It is called an accident, but Angel isn't going to accept that, especially when more and more people turn up dead.</p>
+				<a href="http://www.imdb.com/title/tt0425112/">Read more</a>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div id="download-box">
+		<a href="slidorion.zip" class="download" onClick="trackDownload()">Download</a>
+		<p style="margin-top:0;">Version 0.94</p>
+		<h3>Download the Slidorion now!</h3>
+		<p>Slidorion was created by Ben Holland, student and part time web developer at <a href="http://www.tidydesign.com" target="_blank">Tidy Design</a>. Follow me on <a href="http://www.twitter.com/hollandben" target="_blank">Twitter</a> or check out my <a href="http://www.ben-holland.co.uk/blog/" target="_blank">blog.</a></p>
+		<div class="social-media"><div class="fb-like" data-href="http://www.slidorion.com/" data-send="false" data-layout="box_count" data-show-faces="false" data-font="trebuchet ms"></div></div><div class="social-media"><g:plusone size="tall"></g:plusone></div><div class="social-media"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Slidorion - An image slider and an accordion combined. A great #jQuery plugin" data-count="vertical" data-via="hollandben">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script></div>More script and css style
+: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a>
+		<p>Contribute or tell me about issues on <a href="https://github.com/hollandben/slidorion" target="_blank">GitHub</a></p>
+	</div>
+	
+	<div id="container">
+		
+		<div id="about">
+			<h2>The Slidorion</h2>
+			<h3>A combination of an image slider and an accordion, the slidorion displays beautiful images along with a variable length description. With images linked to each tab, and accompanied by a large array of effects, the slidorion is a great alternative to the traditional jQuery slider.</h3><br />
+			<h3>NEW - Functionality has been added that supports multiple Slidorions on a single page. <a href="/demos/slidorion-multiple-demo.html">See demo</a></h3>
+		</div>
+		
+		<div id="usage">
+			<h2>Usage</h2>
+			<h3>Import jQuery, jQuery UI and slidorion</h3>
+			<pre>
+&lt;link rel="stylesheet" href="css/slidorion.css" /&gt;
+
+&lt;script src="js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.easing.js"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.slidorion.js"&gt;&lt;/script&gt;
+			</pre>
+			<h3>HTML Structure</h3>
+			<pre>
+&lt;div id="slidorion"&gt;
+	&lt;div id="slider"&gt;
+		&lt;div class="slider-image" rel="section1"&gt;
+			&lt;img src="sample.jpg" width="500" height="400" /&gt;
+		&lt;/div&gt;
+		&lt;div class="slider-image" rel="section2"&gt;
+			&lt;img src="sample.jpg" width="500" height="400" /&gt;
+		&lt;/div&gt;
+		&lt;div class="slider-image" rel="section3"&gt;
+			&lt;img src="sample.jpg" width="500" height="400" /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div id="accordion"&gt;
+		&lt;div class="header"&gt;&lt;a class="slider-link" rel="section1"&gt;Kung Fu Panda 2&lt;/a&gt;&lt;/div&gt;
+		&lt;div class="content"&gt;
+			&lt;!-- CONTENT GOES HERE --&gt;
+		&lt;/div&gt;
+		&lt;div class="header"&gt;&lt;a class="slider-link" rel="section2"&gt;The Dark Knight&lt;/a&gt;&lt;/div&gt;
+		&lt;div class="content"&gt;
+			&lt;!-- CONTENT GOES HERE --&gt;
+		&lt;/div&gt;
+		&lt;div class="header"&gt;&lt;a class="slider-link" rel="section3"&gt;Hot Fuzz&lt;/a&gt;&lt;/div&gt;
+		&lt;div class="content"&gt;
+			&lt;!-- CONTENT GOES HERE --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+			</pre>
+			<h3>Basic Initialising</h3>
+			<pre>
+&lt;script&gt;
+$(document).ready(function(){
+	$('#slidorion').slidorion();
+});
+&lt;/script&gt;
+			</pre>
+			<h3>Initialising With Options</h3>
+			<pre>
+&lt;script&gt;
+$(document).ready(function(){
+	$('#slidorion').slidorion({
+		speed: 1000,
+		interval: 4000,
+		effect: 'slideLeft'
+	});
+});
+&lt;/script&gt;
+			</pre>
+		</div>
+		
+		<div id="options">
+			<h2>Options</h2>
+			<ul>
+				<li>
+					<h3>autoPlay</h3>
+					<p>Automatically plays the slidorion (boolean)</p>
+				</li>
+				<li>
+					<h3>easing</h3>
+					<p>The easing of the animations (string)</p>
+				</li>
+				<li>
+					<h3>effect</h3>
+					<p>The effect of the animation (string) - <a href="#" class="more-effects">view effects</a></p>
+					<div class="effects" style="margin-left:50px;">
+						<p>fade - fade's the next image in</p>
+						<p>overUp - overlaps the next image from bottom to top</p>
+						<p>overRight - overlaps the next image from left to right</p>
+						<p>overDown - overlaps the next image from top to bottom</p>
+						<p>overLeft - overlaps the next image from right to left</p>
+						<p>slideUp - slides images up</p>
+						<p>slideRight - slides images right</p>
+						<p>slideDown - slides images down</p>
+						<p>slideLeft - slides images left</p>
+						<p>none - changes image with no effect</p>
+					</div>
+				</li>
+				<li>
+					<h3>first</h3>
+					<p>The first slide to show (the <em>rel</em> of that slide) (string)</p>
+				</li>
+				<li>
+					<h3>hoverPause</h3>
+					<p>The slidorion pauses when hovered over  (boolean)</p>
+				</li>
+				<li>
+					<h3>interval</h3>
+					<p>The time between each slide (number)</p>
+				</li>
+				<li>
+					<h3>speed</h3>
+					<p>The speed of the animation (number)</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div id="changelog">
+			<h2>Change Log</h2>
+			<h3>Version 0.94</h3>
+			<ul class="changes">
+				<li>Solved a problem with Slidorion changing other aspects of the page outisde of itself</li>
+				<li>Improved slider autoplay functionality</li>
+				<li>Added ability to have multiple Slidorions on a page</li>
+			</ul>
+			<h3>Version 0.92</h3>
+			<ul class="changes">
+				<li>Solved starting image issue in IE8</li>
+				<li>Created function to center images in the slider section</li>
+				<li>Add the effect option "none"</li>
+			</ul>
+			<h3>Version 0.91</h3>
+			<ul class="changes">
+				<li>Changed the accordion to prevent page jumping</li>
+				<li>Solved some transition issues with IE8</li>
+			</ul>
+			<h3>Version 0.9</h3>
+			<ul class="changes">
+				<li>Launch of Slidorion</li>
+			</ul>
+		</div>
+		
+		<div id="footer"></div>
+		
+	</div>
+    
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-26555091-1']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	
+		<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) {return;}
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=250647338304374";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+</body>
+
+</html>

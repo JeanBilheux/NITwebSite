@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+	//init showroom
+	$('#slidorion').slidorion();
+
 	$('a[href=#]').click(function() {
 		$.scrollTo(0, 'slow');
 		return false;
