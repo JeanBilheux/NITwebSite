@@ -243,3 +243,26 @@ h4 {
 	top: 10px;
 	padding-right: 10px;
 }
+
+
+/*contact us styles */
+form label {
+  display: inline-block;
+  width: 225px;
+  font-weight: bold;
+}
+
+#form {
+	padding: 20px;
+	padding-left: 150px;
+	padding-top: 50px;
+}
+
+#comments {
+	width: 400px;
+	height: 150px;
+}
+
+h2#contact_us {
+	color: red;
+}
