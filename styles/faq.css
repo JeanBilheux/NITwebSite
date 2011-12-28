@@ -51,12 +51,12 @@ margin-right: 40px;
 	height: 200px;
 }
 
-#accordion {
+#accordion_faq {
 	margin: 20px;
 	margin-top: 40px;
 }
 
-#accordion div h3 {
+#accordion_faq div h3 {
 	background: #fff;
 }
 
