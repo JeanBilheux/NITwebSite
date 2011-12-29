@@ -249,7 +249,8 @@ h4 {
 /*contact us styles */
 form label {
   display: inline-block;
-  width: 225px;
+  width: 280px;
+  padding: 5px;
   font-weight: bold;
 }
 
