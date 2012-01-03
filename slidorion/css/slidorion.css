@@ -96,3 +96,12 @@ Stylesheet for slidorion
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#ffffff',GradientType=0 );
 	overflow:auto;
 }
+
+div#title {
+	font-weight: normal;
+}
+
+div#description {
+	font-weight: normal;
+}
+

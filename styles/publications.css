@@ -37,3 +37,11 @@ table {
 div#publications td {
 	border-bottom: solid 1px red;
 }
+
+#container {
+	height: 1500px;
+}
+
+#body {
+	height: 1540px;
+}

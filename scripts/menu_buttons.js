@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 	// Append shadow image to each LI
 
-	$("#nav-shadow li").append('<img class="shadow" src="images/icons-shadow.jpg" width="150" height="27" alt="" />');
+	$("#nav-shadow li").append('<img class="shadow" src="images/icons-shadow.png" width="150" height="27" alt="" />');
 
 	// Animate buttons, shrink and fade shadow
 
