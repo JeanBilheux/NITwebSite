@@ -25,7 +25,7 @@ p#name {
 }
 
 #container {
-	height: 1650px;
+	height: 1975px;
 }
 
 div#title {
@@ -34,7 +34,11 @@ div#title {
 	border:groove;
 	position:relative;
 	left:35%;
-	width: 300px;
+	width: 350px;
 	color: black;
 	text-align:center;
+}
+
+#body {
+	height: 2030px;
 }
