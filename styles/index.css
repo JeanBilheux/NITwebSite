@@ -80,9 +80,18 @@ body {
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color: white;
 }
-#contact {
-	/*	float: right;*/
+
+#contact_top {
 	position: relative;
+	top: -55px;
+	left: 50px;
+	
+}
+
+#contact {
+/*	float: right;*/
+	position: relative;
+/*	top: -50px;*/
 	text-align: center;
 	padding-right: 20px;
 	font-size: small;
@@ -263,6 +272,18 @@ form label {
 	height: 150px;
 }
 
+#email,#institute,#firstname,#lastname{
+	width: 400px;
+}
+
 h2#contact_us {
 	color: red;
 }
+
+/*spacer for top of articles */
+#spacer {
+	background-color: #0e564e;
+	height: 5px;
+}
+
+

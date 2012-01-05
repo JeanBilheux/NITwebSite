@@ -48,7 +48,7 @@ margin-right: 40px;
 #answers {
 	margin:40px;
 	border: 1px solid red;
-	height: 200px;
+	height: 400px;
 }
 
 #accordion_faq {
@@ -60,3 +60,6 @@ margin-right: 40px;
 	background: #fff;
 }
 
+#container {
+	height: 1200px;
+}
