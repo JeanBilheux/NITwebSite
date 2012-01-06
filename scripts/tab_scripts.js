@@ -11,6 +11,8 @@ $(document).ready(function(){
     e.preventDefault();
   }).eq(0).addClass('current');
   
-  	$('#info').tabs().tabs('rotate',3500);
+    /* to switch between tabs */
+  	// $('#info').tabs().tabs('rotate',3500);
+	$('#info').tabs().tabs('rotate',0);
 
 });
