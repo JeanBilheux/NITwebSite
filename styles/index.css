@@ -59,7 +59,7 @@ body {
 }
 #container {
 	width: 950px;
-	height: 1240px;
+	height: 1260px;
 	background-color: #fff;
 	/*	background-color: #8acecf; */
 	background-color: #fdfde0;
@@ -284,6 +284,34 @@ h2#contact_us {
 #spacer {
 	background-color: #0e564e;
 	height: 5px;
+}
+
+#contact {
+	background: url("../images/background_bottom.png") no-repeat top left;
+}
+
+#bottom_message {
+	font-size: 0.8em;
+}
+
+#ornl_link {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 125px;
+	height: 60px;
+	background-color: transparent;
+/*	border: 1px solid yellow;*/
+}
+
+#us_energy_link {
+	position: absolute;
+	top: 0px;
+	left: 750px;
+	width: 170px;
+	height: 60px;
+	background-color: transparent;
+/*	border: 1px solid yellow;*/
 }
 
 
