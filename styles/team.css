@@ -40,5 +40,9 @@ div#title {
 }
 
 #body {
-	height: 2180px;
+	height: 2170px;
+}
+
+#contact {
+	height: 100px;
 }
