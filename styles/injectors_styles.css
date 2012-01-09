@@ -2,9 +2,13 @@
  * main document
  ********************/
 
+#body {
+	height: 2100px;
+}
+
 #container {
 	width: 950px;
-	height: auto;
+	height: 1900px;
 	background-color: #fff;
     background-color: #fdfde0 ;
 	margin: 0px auto;
