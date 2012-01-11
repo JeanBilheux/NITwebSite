@@ -11,10 +11,6 @@
 		<link rel="stylesheet" type="text/css" href="styles/user_corner_page.css" />
 		<!-- 		<link rel="stylesheet" type="text/css" href="styles/index.css" /> -->
 		<style type="text/css">
-			#message {
-				background: url('images/PageBackground.png') no-repeat center;
-				height: 860px;
-			}
 			#text_box {
 				position:relative;
 				height: 785px;
@@ -30,10 +26,22 @@
 			#contact {
 				left: 3px;
 			}
+			#accordion_faq {
+				padding: 20px;
+				height: 825px;
+			}
+			#logo {
+				float: left;
+			}
+			div#TexasTechUniversity {
+				background: url('images/TexasTechUniversity.png');
+			}
+			table tr td:first-child {
+				text-align: right;
+			}
 		</style>
 	</head>
 	<body>
-		<!-- turn this on to see the page flip at the top right corner of the window -->
 		<div id="container">
 			<div id="body">
 				<div id="header">
@@ -50,7 +58,7 @@
 								<a href="#" title="Links"></a>
 							</li>
 							<li class="button-color-4">
-								<a href="team.html" title="Meet the team">Meet the team</a>
+								<a href="team.html" title="Meet the team"></a>
 							</li>
 						</ul>
 					</div>
@@ -58,6 +66,7 @@
 				<div id="contact_top">
 					<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 				</div>
+<!-- 				
 				<div id="message">
 					<div id="logo">
 						<?php
@@ -68,26 +77,109 @@
 							if ($value == 'EnvScienceDivi') {
 						echo "<img src='images/WatermarkORNL.png' width='90px'";		
 							}
-							
-
 						?>
 					</div>
 					<div id="text_box">
 						
 						<?php
-						if ($value == 'TexasTechUniversity') {
-							
+						if ($value == 'TexasTechUniversity') {							
 						}
-
-
-
 						?>
-
-
 					</div>
-					<!-- end of text-box -->
+				</div> -->
+
+			<?php
+				$value = $_GET['id'];
+				echo $value;
+				if ($value == 'TexasTechUniversity') {
+					$pi = 'pi field';
+					$pi_institute = 'pi institute field';
+					$pi_contact = 'pi contact';
+					$research = 'research field';
+					$why = 'why field';
+					$goal = 'goal field';
+				}
+				if ($value == 'EnvScienceDivi') {
+					
+				}
+				if ($value == 'TexasA&MUniversity') {
+					
+				}
+			
+			
+			
+			?>
+
+
+
+			<div id="accordion_faq">
+				<div>
+					<h3><a href="#"><img src="images/user_corner/TexasTechUniversity.png" height="35px"></a></h3>
+						<table>
+							<tr><td>PI name:</td><td><?php echo $pi; ?></td></tr>
+							<tr><td>PI Institution:</td><td><?php echo $pi_institute; ?></td></tr>
+							<tr><td>PI contact information:</td><td><?php echo $pi_contact; ?></td></tr>
+							<tr><td>Research application(s):</td><td><?php echo $research; ?></td></tr>
+							<tr><td>Why neutrons:</td><td><?php echo $pi; ?><?php echo $why; ?></td></tr>
+							<tr><td>Goal:</td><td><?php echo $goal; ?></td></tr>
+						</table>
+						
+						
+						<!-- <ul>
+						<li>	
+							<a href="#">Question #1</a>
+						</li>
+						<li>
+							<a href="#">Question #2</a>
+						</li>
+						<li>
+							<a href="#">Question #3</a>
+						</li>
+						<li>
+							<a href="#">Question #4</a>
+						</li>
+					</ul> -->
 				</div>
-				<!-- end of message -->
+				<div>
+					<h3><a href="#"><img src="images/user_corner/OakRidgeNationalLaboratory.png" height="35px"></a></h3>
+					<ul>
+						<li>
+							<a href="#">Question #1</a>
+						</li>
+						<li>
+							<a href="#">Question #2</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3><a href="#"><img src="images/user_corner/TexasA&MUniversity.png" height="35px"></a></h3>
+					<ul>
+						<li>
+							<a href="#">Question #1</a>
+						</li>
+						<li>
+							<a href="#">Question #2</a>
+						</li>
+					</ul>
+				</div>
+				<!-- <div>
+					<h3><a href="#">Category #4</a></h3>
+					<ul>
+						<li>
+							<a href="#">Question #1</a>
+						</li>
+						<li>
+							<a href="#">Question #2</a>
+						</li>
+					</ul>
+				</div> -->
+			</div>
+
+
+
+
+
+
 				<hr width=95%>
 				<div id="contact">
 					<a id="ornl_link" href="http://www.ornl.gov/"></a>
@@ -124,5 +216,6 @@
 		<script src="scripts/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
 		<script src="scripts/bottom_right.js" type="text/javascript"></script>
 		<script src="scripts/showroom.js" type="text/javascript"></script>
+		<script src="scripts/user_corner_page.js" type="text/javascript"></script>
 	</body>
 </html>
