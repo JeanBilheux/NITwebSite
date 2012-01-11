@@ -38,6 +38,7 @@
 			}
 			table tr td:first-child {
 				text-align: right;
+				width: 200px;
 			}
 		</style>
 	</head>
@@ -115,7 +116,7 @@
 			<div id="accordion_faq">
 				<div>
 					<h3><a href="#"><img src="images/user_corner/TexasTechUniversity.png" height="35px"></a></h3>
-						<table>
+						<ul><table>
 							<tr><td>PI name:</td><td><?php echo $pi; ?></td></tr>
 							<tr><td>PI Institution:</td><td><?php echo $pi_institute; ?></td></tr>
 							<tr><td>PI contact information:</td><td><?php echo $pi_contact; ?></td></tr>
@@ -123,7 +124,7 @@
 							<tr><td>Why neutrons:</td><td><?php echo $pi; ?><?php echo $why; ?></td></tr>
 							<tr><td>Goal:</td><td><?php echo $goal; ?></td></tr>
 						</table>
-						
+					</ul>
 						
 						<!-- <ul>
 						<li>	
