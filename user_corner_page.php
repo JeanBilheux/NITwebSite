@@ -12,8 +12,8 @@
 		<!-- 		<link rel="stylesheet" type="text/css" href="styles/index.css" /> -->
 		<style type="text/css">
 			#text_box {
-				position:relative;
-				height: 785px;
+				position: relative;
+				height: 885px;
 				top: 160px;
 				left: 160px;
 				width: 600px;
@@ -28,18 +28,27 @@
 			}
 			#accordion_faq {
 				padding: 20px;
-				height: 825px;
+				height: 850px;
 			}
 			#logo {
 				float: left;
 			}
-			div#TexasTechUniversity {
-				background: url('images/TexasTechUniversity.png');
-			}
 			table tr td:first-child {
+				font-weight: bold;
 				text-align: right;
-				width: 200px;
+				vertical-align: text-top;
+				width: 230px;
 			}
+			table {
+				border-spacing: 10px;
+			}
+			#container {
+				height: 1230px;
+			}
+			#body {
+				height: 1000px;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -67,120 +76,143 @@
 				<div id="contact_top">
 					<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 				</div>
-<!-- 				
-				<div id="message">
-					<div id="logo">
-						<?php
-						$value = $_GET['id'];
-							if ($value == 'TexasTechUniversity') {
-								echo "<img src='images/TexasTechUniversity.png' width='90px'";
-							}
-							if ($value == 'EnvScienceDivi') {
-						echo "<img src='images/WatermarkORNL.png' width='90px'";		
-							}
-						?>
+				<?php
+// $value = $_GET['id'];
+// if ($value == 'TexasTechUniversity') {
+$pi='J. Horita';
+$pi_institute='Texas Tech Iniversity';
+$pi_contact='Department of Geosciences - Texas Tech University <br/> '.'Lubbock, Texas 79409-1053 <br/> Tel: (806)742-3109 <br/>Fax: (806)742-0100';
+$research='Understanding fluid-rock interactions under subsurface conditions, including several DOE-relevant issues such as geologic CO2 sequestration, fluid migration in salt deposits, and contaminant migration in the vadose zone.';
+$why='Neutron imaging is particularly useful for visualizing and understanding the fluid-rock interactions discussed above, because of its sensitivity to water and other natural fluids, and of deep penetration into porous geologic media.';
+$goal='In collaboration with UT Knoxville and Oak Ridge National Laboratory, we have initiated a novel neutron imaging project for in-situ observation and monitoring of fluids (water, CO2) in geologic porous media at ambient conditions. We plan to expand to high-pressure and high-temperature conditions, relevant to deep subsurface environments.';
+// }
+				?>
+				<div id="accordion_faq">
+					<div>
+						<h3><a href="#"><img src="images/user_corner/TexasTechUniversity.png" height="35px"></a></h3>
+						<ul>
+							<table>
+								<tr>
+									<td>PI name:</td><td><?php echo $pi;?></td>
+								</tr>
+								<tr>
+									<td>PI Institution:</td><td><?php echo $pi_institute;?></td>
+								</tr>
+								<tr>
+									<td>PI contact information:</td><td><?php echo $pi_contact;?></td>
+								</tr>
+								<tr>
+									<td>Research application(s):</td><td><?php echo $research;?></td>
+								</tr>
+								<tr>
+									<td>Why neutrons:</td><td><?php echo $pi;?><?php echo $why;?></td>
+								</tr>
+								<tr>
+									<td>Goal:</td><td><?php echo $goal;?></td>
+								</tr>
+							</table>
+						</ul>
 					</div>
-					<div id="text_box">
-						
-						<?php
-						if ($value == 'TexasTechUniversity') {							
-						}
-						?>
+					<?php
+$pi='J. Warren';
+$pi_institute='ORNL - Environmental Sciences Division';
+$pi_contact='Environmental Sciences Division<br/>Oak Ridge National Laboratory</br/>Oak Ridge, TN  37831-6301<br/>Tel: (865) 241-3150';
+$research='soil-plant water relations, plant morphology, plant root dynamics';
+$why='Unique in its ability to study water distribution and movement through a system';
+$goal='Water flux dynamics through roots under varying environmental conditions';
+					?>
+					<div>
+						<h3><a href="#"><img src="images/user_corner/ESD_ORNL.png" height="35px"></a></h3>
+						<ul>
+							<table>
+								<tr>
+									<td>PI name:</td><td><?php echo $pi;?></td>
+								</tr>
+								<tr>
+									<td>PI Institution:</td><td><?php echo $pi_institute;?></td>
+								</tr>
+								<tr>
+									<td>PI contact information:</td><td><?php echo $pi_contact;?></td>
+								</tr>
+								<tr>
+									<td>Research application(s):</td><td><?php echo $research;?></td>
+								</tr>
+								<tr>
+									<td>Why neutrons:</td><td><?php echo $pi;?><?php echo $why;?></td>
+								</tr>
+								<tr>
+									<td>Goal:</td><td><?php echo $goal;?></td>
+								</tr>
+							</table>
+						</ul>
 					</div>
-				</div> -->
-
-			<?php
-				$value = $_GET['id'];
-				echo $value;
-				if ($value == 'TexasTechUniversity') {
-					$pi = 'pi field';
-					$pi_institute = 'pi institute field';
-					$pi_contact = 'pi contact';
-					$research = 'research field';
-					$why = 'why field';
-					$goal = 'goal field';
-				}
-				if ($value == 'EnvScienceDivi') {
-					
-				}
-				if ($value == 'TexasA&MUniversity') {
-					
-				}
-			
-			
-			
-			?>
-
-
-
-			<div id="accordion_faq">
-				<div>
-					<h3><a href="#"><img src="images/user_corner/TexasTechUniversity.png" height="35px"></a></h3>
-						<ul><table>
-							<tr><td>PI name:</td><td><?php echo $pi; ?></td></tr>
-							<tr><td>PI Institution:</td><td><?php echo $pi_institute; ?></td></tr>
-							<tr><td>PI contact information:</td><td><?php echo $pi_contact; ?></td></tr>
-							<tr><td>Research application(s):</td><td><?php echo $research; ?></td></tr>
-							<tr><td>Why neutrons:</td><td><?php echo $pi; ?><?php echo $why; ?></td></tr>
-							<tr><td>Goal:</td><td><?php echo $goal; ?></td></tr>
-						</table>
-					</ul>
-						
-						<!-- <ul>
-						<li>	
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-						<li>
-							<a href="#">Question #3</a>
-						</li>
-						<li>
-							<a href="#">Question #4</a>
-						</li>
-					</ul> -->
+					<?php
+$pi = 'Andrea Strzelec';
+$pi_institute = 'Texas A&M University';
+$pi_contact = 'astrzelec@tamu.edu<br/>Tel: 979-862-3367<br/>http://andreastrzelec.tamu.edu/';
+$research = 'Diesel Particulate Filters, Sprays (fuel and urea), Engine Parts, EGR Coolers (fouling)';
+$why = 'Neutron imaging is a non-destructive, non-invasive technique that allows for some unique new insight into these systems. Since neutrons have a different interaction cross section than X-rays, the information that we gain from imaging complements and extends other techniques.';
+$goal = 'Diesel Particulate Filter Loading Profiles (publication SAE 2009-01-2735)<br/>EGR Cooler Fouling Profiles<br/>Spray details</br>Oil or Coolant Pathways<br/>Combustion Imaging<br/>'
+					?>
+					<div>
+						<h3><a href="#"><img src="images/user_corner/TexasA&MUniversity.png" height="35px"></a></h3>
+						<ul>
+							<table>
+								<tr>
+									<td>PI name:</td><td><?php echo $pi;?></td>
+								</tr>
+								<tr>
+									<td>PI Institution:</td><td><?php echo $pi_institute;?></td>
+								</tr>
+								<tr>
+									<td>PI contact information:</td><td><?php echo $pi_contact;?></td>
+								</tr>
+								<tr>
+									<td>Research application(s):</td><td><?php echo $research;?></td>
+								</tr>
+								<tr>
+									<td>Why neutrons:</td><td><?php echo $pi;?><?php echo $why;?></td>
+								</tr>
+								<tr>
+									<td>Goal:</td><td><?php echo $goal;?></td>
+								</tr>
+							</table>
+						</ul>
+					</div>
+					<?php
+$pi = 'Fei Ren';
+$pi_institute = 'MSTD - ORNL';
+$pi_contact = 'renf@ornl.gov<br/>Tel: 865-241-7553';
+$research = 'Investigation of hydrous phase distribution in ultra high performance concretes.';
+$why = 'Neutron imaging is preferred due to its sensitivity to hydrogen atoms.';
+$goal = 'Quantitative three-dimensional distribution of hydrous phase(s) in bulk concrete materials.';
+					?>
+					<div>
+						<h3><a href="#"><img src="images/user_corner/MSTD_ORNL.png" height="35px"></a></h3>
+						<ul>
+							<table>
+								<tr>
+									<td>PI name:</td><td><?php echo $pi;?></td>
+								</tr>
+								<tr>
+									<td>PI Institution:</td><td><?php echo $pi_institute;?></td>
+								</tr>
+								<tr>
+									<td>PI contact information:</td><td><?php echo $pi_contact;?></td>
+								</tr>
+								<tr>
+									<td>Research application(s):</td><td><?php echo $research;?></td>
+								</tr>
+								<tr>
+									<td>Why neutrons:</td><td><?php echo $pi;?><?php echo $why;?></td>
+								</tr>
+								<tr>
+									<td>Goal:</td><td><?php echo $goal;?></td>
+								</tr>
+							</table>
+						</ul>
+					</div>
 				</div>
-				<div>
-					<h3><a href="#"><img src="images/user_corner/OakRidgeNationalLaboratory.png" height="35px"></a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h3><a href="#"><img src="images/user_corner/TexasA&MUniversity.png" height="35px"></a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-					</ul>
-				</div>
-				<!-- <div>
-					<h3><a href="#">Category #4</a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-					</ul>
-				</div> -->
-			</div>
-
-
-
-
-
-
 				<hr width=95%>
 				<div id="contact">
 					<a id="ornl_link" href="http://www.ornl.gov/"></a>

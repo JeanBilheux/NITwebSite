@@ -37,14 +37,6 @@ div#publications td {
 	border-bottom: solid 1px red;
 }
 
-#container {
-	height: 1200px;
-}
-
-#body {
-	height: 900px;
-}
-
 #contact {
 	left: -25px;
 }
