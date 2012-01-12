@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-		<title>Welcome to the ORNL NIT website</title>
+		<title>ORNL Neutron Imaging Team</title>
 		<link rel="stylesheet" type="text/css" href="styles/index.css" />
 		<link rel="stylesheet" type="text/css" href="styles/jquery-ui-1.7.2.custom.css" />
 		<link rel="stylesheet" type="text/css" href="styles/contact.css" />

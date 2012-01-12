@@ -6,16 +6,19 @@
 		<title>ORNL Neutron Imaging Team</title>
 		<link rel="stylesheet" type="text/css" href="styles/index.css" />
 		<link rel="stylesheet" type="text/css" href="styles/jquery-ui-1.7.2.custom.css" />
-		<link rel="stylesheet" type="text/css" href="styles/tabs.css" />
-		<link rel="stylesheet" type="text/css" href="styles/showroom.css" />
-		<link rel="stylesheet" type="text/css" href="styles/faq.css" />
+		<style type="text/css">
+			#container {
+				height: 1230px;
+			}
+			#body {
+				height: 1000px;
+			}
+			#real_body {
+				height: 860px;
+			}
+		</style>
 	</head>
 	<body>
-		<!-- turn this on to see the page flip at the top right corner of the window -->
-		<!-- 		<div id="pageflip">
-		<img src="images/page_flip.png" alt="" />
-		<span class="msg_block">My message here</span>
-		</div> -->
 		<div id="container">
 			<div id="body">
 				<div id="header">
@@ -26,13 +29,13 @@
 								<a href="publications.php" title="Publications"></a>
 							</li>
 							<li class="button-color-2">
-								<a href="#" title="Q&As"></a>
+								<a href="faq.php" title="Q&As"></a>
 							</li>
 							<li class="button-color-3">
 								<a href="#" title="Links"></a>
 							</li>
 							<li class="button-color-4">
-								<a href="team.php" title="Meet the team"></a>
+								<a href="#" title="Meet the team"></a>
 							</li>
 						</ul>
 					</div>
@@ -40,64 +43,15 @@
 				<div id="contact_top">
 					<a href="index.php"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 				</div>
-			</div>
-			<!-- faq really starts -->
-			<div id="accordion_faq">
-				<div>
-					<h3><a href="#">Category #1</a></h3>
-					<ul>
-						<li id="me">
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-						<li>
-							<a href="#">Question #3</a>
-						</li>
-						<li>
-							<a href="#">Question #4</a>
-						</li>
-					</ul>
+				<div id="real_body">
+				<!-- body really starts -->
+				
+				
+				<!-- end of real body -->
 				</div>
-				<div>
-					<h3><a href="#">Category #2</a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h3><a href="#">Category #3</a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h3><a href="#">Category #4</a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
-						</li>
-						<li>
-							<a href="#">Question #2</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div id="answers"></div>
-			<br/>
-			<hr width="90%">
-			<div id="contact">
+				<br/>
+				<hr width="90%">
+				<div id="contact">
 						<a id="ornl_link" href="http://www.ornl.gov/"></a>
 						<a id="us_energy_link" href="http://science.energy.gov/"></a>
 						<!-- 				<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a> -->
@@ -118,23 +72,17 @@
 						<br/>
 						<br/>
 					</div>
+			</div>
 		</div>
 		<!-- script files -->
-		<script src="scripts/jquery.js" type="text/javascript"></script>
 		<script src="scripts/animated_background.js" type="text/javascript"></script>
-		<script src="scripts/jquery-1.3.2.min.js" type="text/javascript"></script>
-		<!-- 		<script src="scripts/my_scripts.js" type="text/javascript"></script> -->
+		<script src="scripts/jquery.js" type="text/javascript"></script>
+		<script src="scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
 		<script src="scripts/menu_buttons.js" type"text/javascript"></script>
 		<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
 		<script src="scripts/jquery.kwicks-1.5.1.pack.js" type="text/javascript"></script>
-		<script src="scripts/tab_scripts.js" type="text/javascript"></script>
+		<script src="scripts/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
 		<script src="scripts/jquery.blend-min.js" type="text/javascript"></script>
 		<script src="scripts/jquery.hoverIntent.minified.js" type="text/javascript"></script>
-		<script src="scripts/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
-		<!-- 		<script src="scripts/bottom_right.js" type="text/javascript"></script> -->
-		<script src="scripts/showroom.js" type="text/javascript"></script>
-		<script src="scripts/jquery.blend-min.js" type="text/javascript"></script>
-		<!-- local script files -->
-		<script src="scripts/faq.js" type="text/javascript"></script>
 	</body>
 </html>

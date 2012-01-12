@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		<link rel="stylesheet" type="text/css" href="styles/tabs.css" />
-		<title>On the road again</title>
+		<title>ORNL Neutron Imaging Team</title>
 		<style type="text/css">
 			div#tab div#info p ul li {
 				text-align: left
