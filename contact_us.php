@@ -49,10 +49,10 @@
 					<label for="lastname">Last name:</label>
 					<input type="text" id="lastname" name="lastname" />
 					<br />
-					<label for="email">Your email address?</label>
+					<label for="email">Your email address:</label>
 					<input type="text" id="email" name="email" />
 					<br />
-					<label for="institute">Institute</label>
+					<label for="institute">Institute:</label>
 					<input type="text" id="institute" name="institute" />
 					<br />
 					<label for="neutronfamiliar">Are you familiar with neutron imaging?</label>
@@ -63,7 +63,7 @@
 					<br />
 					<br />
 					<br />
-					<label for="comments">Comments</label>
+					<label for="comments">Comments:</label>
 					<textarea id="comments" name="comments"></textarea>
 					<br />
 					<br />

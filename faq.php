@@ -38,7 +38,7 @@
 					</div>
 				</div>
 				<div id="contact_top">
-					<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
+					<a href="index.php"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 				</div>
 			</div>
 			<!-- faq really starts -->
@@ -102,7 +102,7 @@
 						<a id="us_energy_link" href="http://science.energy.gov/"></a>
 						<!-- 				<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a> -->
 						<!-- 				&nbsp;&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;&nbsp; -->
-						<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
+						<a href="index.php"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 					&nbsp;&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;&nbsp; 
 					<a href="contact_us.php">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
 						<br/>

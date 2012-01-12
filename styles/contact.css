@@ -5,3 +5,7 @@ body {
 #container {
 	height: 1510px;
 }
+
+form {
+	vertical-align: text-top;
+}
