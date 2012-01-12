@@ -85,7 +85,6 @@ $pi_contact='Department of Geosciences - Texas Tech University <br/> '.'Lubbock,
 $research='Understanding fluid-rock interactions under subsurface conditions, including several DOE-relevant issues such as geologic CO2 sequestration, fluid migration in salt deposits, and contaminant migration in the vadose zone.';
 $why='Neutron imaging is particularly useful for visualizing and understanding the fluid-rock interactions discussed above, because of its sensitivity to water and other natural fluids, and of deep penetration into porous geologic media.';
 $goal='In collaboration with UT Knoxville and Oak Ridge National Laboratory, we have initiated a novel neutron imaging project for in-situ observation and monitoring of fluids (water, CO2) in geologic porous media at ambient conditions. We plan to expand to high-pressure and high-temperature conditions, relevant to deep subsurface environments.';
-// }
 				?>
 				<div id="accordion_faq">
 					<div>
@@ -250,5 +249,24 @@ $goal = 'Quantitative three-dimensional distribution of hydrous phase(s) in bulk
 		<script src="scripts/bottom_right.js" type="text/javascript"></script>
 		<script src="scripts/showroom.js" type="text/javascript"></script>
 		<script src="scripts/user_corner_page.js" type="text/javascript"></script>
+
+		<?php
+		$index;
+		$value = $_GET['id'];
+		if ($value == 'TexasTechUniversity') {
+			$index=0;
+		}
+		if ($value == 'ORNL_ESD') {
+			$index=1;
+		}
+		if ($value == 'TexasA&MUniversity') {
+			$index=2;
+		}
+		if ($value == 'ORNL_MSTD') {
+			$index=3;
+		}
+		echo '<script type="text/javascript"> $(document).ready(function() { ' .
+		' $("#accordion_faq").accordion("activate",' . $index . ') }); </script>'
+		?>
 	</body>
 </html>
