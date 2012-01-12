@@ -23,7 +23,7 @@
 						<!--Add the interactive menu here -->
 						<ul id="nav-shadow">
 							<li class="button-color-1">
-								<a href="publications.html" title="Publications"></a>
+								<a href="publications.php" title="Publications"></a>
 							</li>
 							<li class="button-color-2">
 								<a href="#" title="Q&As"></a>
@@ -32,7 +32,7 @@
 								<a href="#" title="Links"></a>
 							</li>
 							<li class="button-color-4">
-								<a href="team.html" title="Meet the team"></a>
+								<a href="team.php" title="Meet the team"></a>
 							</li>
 						</ul>
 					</div>
@@ -104,7 +104,7 @@
 						<!-- 				&nbsp;&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;&nbsp; -->
 						<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 					&nbsp;&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;&nbsp; 
-					<a href="contact_us.html">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
+					<a href="contact_us.php">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
 						<br/>
 						<br/>
 						<div id="bottom_message">
@@ -112,6 +112,7 @@
 							<a href="http://www.science.doe.gov/"> Office of Science</a>
 							<br/>
 							by <a href="http://www.ornl.gov/">Oak Ridge National Laboratory</a>, which is managed by the <a href="http://www.ut-battelle.org/">UT-Battelle, LLC</a>.
+					<br/><br/><span id="last_update">Last updated: <?php require_once('appvars.php'); echo LAST_UPDATE ?></span>
 						</div>
 						<br/>
 						<br/>

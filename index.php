@@ -1,3 +1,6 @@
+<?php 
+  require_once('appvars.php');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
@@ -27,16 +30,16 @@
 						<!--Add the interactive menu here -->
 						<ul id="nav-shadow">
 							<li class="button-color-1">
-								<a href="publications.html" title="Publications"></a>
+								<a href="publications.php" title="Publications"></a>
 							</li>
 							<li class="button-color-2">
-								<a href="faq.html" title="Q&As"></a>
+								<a href="faq.php" title="Q&As"></a>
 							</li>
 							<li class="button-color-3">
 								<a href="#" title="Links"></a>
 							</li>
 							<li class="button-color-4">
-								<a href="team.html" title="Meet the team"></a>
+								<a href="team.php" title="Meet the team"></a>
 							</li>
 						</ul>
 					</div>
@@ -46,13 +49,13 @@
 			<div id="slidorion">
 				<div id="slider">
 					<div class="slider-image" rel="section1">
-						<a href="imars.html"><img src="images/showroom_iMars_left.png" width="500" height="400" /></a>
+						<a href="imars.php"><img src="images/showroom_iMars_left.png" width="500" height="400" /></a>
 					</div>
 					<div class="slider-image" rel="section2">
-						<a href="ancient_lamp.html"><img src="images/showroom_lamp_left.png" width="500" height="400" /></a>
+						<a href="ancient_lamp.php"><img src="images/showroom_lamp_left.png" width="500" height="400" /></a>
 					</div>
 					<div class="slider-image" rel="section3">
-						<a href="ejectors.html"><img src="images/showroom_ejectors_left.png" width="500" height="400" /></a>
+						<a href="ejectors.php"><img src="images/showroom_ejectors_left.png" width="500" height="400" /></a>
 					</div>
 				</div>
 				<div id="accordion">
@@ -74,7 +77,7 @@
 						</div>
 						<br/>
 						<br/>
-						<a href="imars.html">Read more...</a>
+						<a href="imars.php">Read more...</a>
 					</div>
 					<!-- second tab -->
 					<div class="header">
@@ -94,7 +97,7 @@
 						</div>
 						<br/>
 						<br/>
-						<a href="ancient_lamp.html">Read more...</a>
+						<a href="ancient_lamp.php">Read more...</a>
 					</div>
 					<!-- third tab -->
 					<div class="header">
@@ -113,7 +116,7 @@
 						</div>
 						<br/>
 						<br/>
-						<a href="ejectors.html">Read more...</a>
+						<a href="ejectors.php">Read more...</a>
 					</div>
 				</div>
 			</div>
@@ -160,15 +163,15 @@
 							<a href="#intro">In the news</a>
 						</li>
 						<li>
-							<a href="on_the_road_again.html">On the road again</a>
+							<a href="on_the_road_again.php">On the road again</a>
 						</li>
 						<li>
-							<a href="user_corner.html">User corner</a>
+							<a href="user_corner.php">User corner</a>
 						</li>
 					</ul>
 					<div id="intro">
 						<p>
-							<a href="ancient_lamp.html"> <img src="images/articles/ArchaeologyMagazine.png" alt="January/February 2012 edition of Archeology Magazine" width=75% height=75% />
+							<a href="ancient_lamp.php"> <img src="images/articles/ArchaeologyMagazine.png" alt="January/February 2012 edition of Archeology Magazine" width=75% height=75% />
 							<div id="contain">
 								The January/February edition of Archaeology Magazine features
 								<br />
@@ -187,7 +190,7 @@
 				<a id="us_energy_link" href="http://science.energy.gov/"></a>
 				<!-- 				<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a> -->
 				<!-- 				&nbsp;&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;&nbsp; -->
-				<a href="contact_us.html">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
+				<a href="contact_us.php">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
 				<br/>
 				<br/>
 				<div id="bottom_message">
@@ -195,6 +198,7 @@
 					<a href="http://www.science.doe.gov/"> Office of Science</a>
 					<br/>
 					by <a href="http://www.ornl.gov/">Oak Ridge National Laboratory</a>, which is managed by the <a href="http://www.ut-battelle.org/">UT-Battelle, LLC</a>.
+					<br/><br/><span id="last_update">Last updated: <?php echo LAST_UPDATE ?></span>
 				</div>
 				<br/>
 				<br/>

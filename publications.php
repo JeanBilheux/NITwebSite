@@ -23,19 +23,19 @@
 								<a href="#" title="Publications"></a>
 							</li>
 							<li class="button-color-2">
-								<a href="faq.html" title="Q&As"></a>
+								<a href="faq.php" title="Q&As"></a>
 							</li>
 							<li class="button-color-3">
 								<a href="#" title="Links"></a>
 							</li>
 							<li class="button-color-4">
-								<a href="team.html" title="Meet the team">Meet the team</a>
+								<a href="team.php" title="Meet the team">Meet the team</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 				<div id="contact_top">
-					<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
+					<a href="index.php"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 				</div>
 				<div id="publications">
 					<h2>Publications</h2>
@@ -229,9 +229,9 @@
 						<a id="us_energy_link" href="http://science.energy.gov/"></a>
 						<!-- 				<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a> -->
 						<!-- 				&nbsp;&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;&nbsp; -->
-						<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
+						<a href="index.php"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 					&nbsp;&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;&nbsp; 
-					<a href="contact_us.html">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
+					<a href="contact_us.php">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
 						<br/>
 						<br/>
 						<div id="bottom_message">
@@ -239,6 +239,7 @@
 							<a href="http://www.science.doe.gov/"> Office of Science</a>
 							<br/>
 							by <a href="http://www.ornl.gov/">Oak Ridge National Laboratory</a>, which is managed by the <a href="http://www.ut-battelle.org/">UT-Battelle, LLC</a>.
+					<br/><br/><span id="last_update">Last updated: <?php require_once('appvars.php'); echo LAST_UPDATE ?></span>
 						</div>
 						<br/>
 						<br/>
