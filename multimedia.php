@@ -32,7 +32,7 @@
 								<a href="faq.php" title="Q&As"></a>
 							</li>
 							<li class="button-color-3">
-								<a href="#" title="Links"></a>
+								<a href="#" title="Multimedia"></a>
 							</li>
 							<li class="button-color-4">
 								<a href="#" title="Meet the team"></a>
