@@ -1,216 +1,168 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-		<title>ORNL Neutron Imaging Team</title>
-		<link rel="stylesheet" type="text/css" href="styles/index.css" />
-		<link rel="stylesheet" type="text/css" href="styles/ancient_lamp.css " />
-		<!--     <link rel="stylesheet" media="screen" type="text/css" href="spacegallery/css/layout.css" /> -->
-		<link rel="stylesheet" media="screen" type="text/css" href="spacegallery/css/spacegallery.css" />
-		<link rel="stylesheet" media="screen" type="text/css" href="spacegallery/css/custom.css" />
-		<script src="scripts/jquery.js" type="text/javascript"></script>
-		<script type="text/javascript" src="spacegallery/js/eye.js"></script>
-		<script type="text/javascript" src="spacegallery/js/utils.js"></script>
-		<script type="text/javascript" src="spacegallery/js/spacegallery.js"></script>
-		<script type="text/javascript" src="spacegallery/js/layout.js"></script>
-	</head>
-	<body>
-		<div id="container">
-			<div id="header">
-				<div id="menu">
-					<!--Add the interactive menu here -->
-					<ul id="nav-shadow">
-						<li class="button-color-1">
-							<a href="publications.php" title="Publications"></a>
-						</li>
-						<li class="button-color-2">
-							<a href="faq.php" title="Q&As"></a>
-						</li>
-						<li class="button-color-3">
-							<a href="multimedia.php" title="multimedia"></a>
-						</li>
-						<li class="button-color-4">
-							<a href="team.php" title="Meet the team">Meet the team</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div id="contact_top">
-				<a href="index.php"><img src='images/home.png' alt='Home' align=center width="30" /></a>
-			</div>
-			<div id="spacer"></div>
-			<br/>
-			<div id="content">
-				<div class="article">
-					<div id="hr"></div>
-					<br/><br/><br/>
-					 <h3>"Neutron imaging gives researchers new tools for exploring artifacts and ancient technology"</h3>
-					<p>
-						For the first time at ORNL, neutron images in three dimensions (3-D) have been taken of rare archaeological artifacts.
-						Bronze and brass artifacts excavated at the ancient city of Petra, in present day Jordan, were recently imaged in 3-D using
-						neutrons at the High Flux Isotope Reactor's CG-1D neutron imaging instrument.
-					</p>
-					<p>
-						The neutron imaging technique gives eager archeologists and ancient historians significant, and otherwise wholly inaccessible,
-						insight into the manufacturing and lives of cultures that once occupied settlements within the Roman Empire, Middle East, and Colonial-Period New England.
-					</p>
-					<p>
-						The samples imaged in 3D in August came from the collections of the Joukowsky Institute for Archaeology and the Ancient World at
-						Brown University. They include an elaborate hanging bronze oil lamp, a large Roman coin, and most charmingly a standing dog figure,
-						which might have been either a religious dedication or perhaps a toy. Although their original provenance is unknown, they are all
-						excellent examples of common metal finds from antiquity.
-					</p>
-					<p>
-						Principal investigator (PI) Krysta Ryzewski, an assistant professor of anthropology at Wayne State University, and her co-PI Brian W.
-						Sheldon, professor of engineering at Brown University, were loaned the artifacts for study from professor Susan E. Alcock, director of Brown's Joukowsky Institute.
-					</p>
-					<p>
-						In earlier work, the team conducted two-dimensional imaging of copper alloy (bronze and brass) artifacts both from Petra and from Greene Farm,
-						a colonial-period plantation in Rhode Island. The samples include artifacts from daily life: a clothing buckle, a knife, and some building hardware.
-					</p>
-					<div id="photo1" class="floating_image_left">
-						<img src='images/hassina-krysta-taking-2d-image.jpg' alt='Hassina and Krysta taking 2D image at CG1D' />
-						<p>
-							Instrument scientist Hassina Bilheux (left) and principal investigator Krysta Ryzewski, assistant professor of
-							anthropology at Wayne State University, taking 2-D images of the oil lamp artifact.
-						</p>
-					</div>
-					<p>
-						One circular object from Petra was so corroded that it was unidentifiable. But when it was imaged with neutrons, underneath was a piece of jewelry,
-						probably an earring. Petra is most famous as a trading center in ancient times, connecting the Mediterranean world with places as far away as India and China.
-						It was the capital of an independent kingdom of the Nabataeans, until the emperor Trajan incorporated it into the Roman Empire in the early second century A.D.
-					</p>
-					<p>
-						The earlier imaging and analysis resolved some questions of object identity and raised many new ones about the techniques and materials that crafts
-						people in the past used to make these objects. "We can also examine certain objects (such as the knife or the bronze lamp) to look for trace residues
-						of the oil once burned in the lamp or what the knife was used to cut" says Ryzewski.
-					</p>
-					<p>
-						"I first learned of the developing neutron imaging instruments at Oak Ridge in my conversations with Hassina Bilheux (lead instrument scientist for CG-1D).
-						At the time I was a postdoctoral fellow in archaeology and engineering at Brown. I attended a neutron imaging workshop at SNS in November 2008,
-						and became the only archaeologist to be part of the VENUS instrument development team. Brian Sheldon at Brown also joined then.
-						We have been collaborating on all of the experiments with Hassina at SNS and HFIR" she says.
-					</p>
-					<p>
-						The neutron imaging beam line is a huge step forward for these scholars. "Archaeologists and scientists can obtain relatively little information about
-						the manufacture of archaeomaterials, ancient objects, and the materials from which they are constructed from external surfaces alone",
-						says Ryzewski. "Very few historical accounts describe the construction of such objects and archaeomaterials, ancient bronzes, or ceramic vessels.
-						The only source of information about how these objects were constructed comes from their material properties and composition."
-					</p>
-					<p>
-						Archaeological objects are reviewed as unique cultural resources. Earlier analysis often entailed extracting a sample from such an object,
-						which meant damage and sometimes even wholesale destruction of an artifact so it could be mounted effectively for analysis.
-						Analysts' necessarily conservative treatment of archaeomaterials left many questions unanswered.
-					</p>
-					<p>
-						Imaging archaeological objects comprehensively and systematically with neutrons only became possible with the development of
-						the CG-1D prototype beam line. Neutron activation analysis and neutron imaging at Oak Ridge means scholars can now conduct detailed,
-						nondestructive analysis of samples. "There currently exist a vast array of archaeological objects and research questions about ancient
-						and historical technological development that can now be posed" says Ryzewski. "The CG-1D beam line has offered us an invaluable
-						alternative for performing nondestructive, noninvasive analysis."
-					</p>
-					<p>
-						CG-1D data can reveal the raw materials used, the manufacturing techniques, the historical development of alloys and composite materials
-						and the geological origins of ores and clay. On the cultural side, researchers can learn about the activities of ancient people's daily lives that such objects served.
-					</p>
-					<p>
-						"Archaeologists can now begin to precisely reconstruct past networks and patterns of resource extraction, trade and exchange, environmental
-						impacts of industrial activities on ancient landscapes, and the transmission of craft production traditions over time", Ryzewski says.
-						"These are some of the sorts of questions that our current research and experiments are designed to address."
-					</p>
-					<p>
-						The 3-D neutron imaging and quantitative analysis occurs at an instrument that is a time-of-flight beam line, with a chopper for producing pulses of
-						neutrons to take noninvasive images. Neutrons, rather than x-rays, do the work.
-					</p>
-					<p>
-						"Part of our early work was to test the parameters of the instrument and how we might need to adjust the instrumentation to suit the artifacts,
-						which tend to vary in composition, size, and density" Ryzewski says.
-					</p>
-					<div id="photo2" class="floating_image_right">
-						<img src='images/lamp-scan.jpg' alt='Photo of ancient greek lamp and radiograph of same lamp' />
-						<p>
-							Top: photo of ancient Greek lamp. Bottom: neutron radiograph of the same lamp.
-						</p>
-					</div>
-					<p>
-						"We anticipated that we would be able to see beneath the surface and find evidence of manufacturing steps (mold seams), impurities or other organic
-						inclusions in the metals, residue from the objects' use, and microstructural or compositional elements" she says.
-					</p>
-					<p>
-						Their data are still being processed, but preliminary results from the bronze lamp suggest that they will be able to see and examine aspects
-						of all of these areas of interest once the 3-D data are compiled.
-					</p>
-					<p>
-						"Our work is still in its early stages. We hope to reexamine these objects in further rounds of testing in 2012. We will expand our sample base to other
-						types of metal artifacts, perhaps some excavated from shipwrecks. We hope to examine ceramic artifacts as well", Ryzewski says.
-					</p>
-					<p>
-						More broadly, the scholars may be in a position to offer information to scientists who specialize in the conservation and stabilization of museum
-						collections. Other findings may provide insights into materials behavior of interest to materials science. "Each round of experiments raises many
-						more questions about the materials in the object and about the instrumentation itself," Ryzewski says.
-					</p>
-					<p>
-						This fall the researchers will return to HFIR to image some of the bronze objects for Bragg-edge peaks in the materials. Collaborating with
-						Ryzewski and Sheldon are Bilheux and Lakeisha Walker of SNS and Susan Herringer, a doctoral student in materials science engineering at Brown and the Joukowsky Institute.
-					</p>
-					<p>
-						The group will publish their results in both archaeological and neutron sciences academic publications. In addition,
-						they will present their initial findings at the annual Society for American Archaeology meetings in Memphis in April 2012.
-			</p>
-				</div>
-				<br/><br/>
-				<div class="tab">
-					<div id="myGallery" class="spacegallery">
-						<img src="photos/ancient_lamp/photo4.jpg" alt=""/>
-						<img src="photos/ancient_lamp/photo5.jpg" alt=""/>
-						<img src="photos/ancient_lamp/photo7.jpg" alt=""/>
-						<img src="photos/ancient_lamp/photo8.jpg" alt=""/>
-					</div>
-				</div>
-				<br/><br/><br/>
-						<p>
-							<a id="top_of_page" href="#">Top of page</a>
-						</p>
-				<br/>
-				<br/><br/>
-				<hr width="90%">
-				<div id="contact">
-					<a id="ornl_link" href="http://www.ornl.gov/"></a>
-					<a id="us_energy_link" href="http://science.energy.gov/"></a>
-					<!-- 				<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a> -->
-					<!-- 				&nbsp;&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;&nbsp; -->
-					<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
-					&nbsp;&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;&nbsp; <a href="contact_us.php">Contact us</a> | <a href="http://www.ornl.gov/ornlhome/disclaimrs.shtml">Security Notice</a> | <a href="http://www.oakridge.doe.gov/external/">DOE</a> | <a href="http://ut-battelle.org/">UT-Battelle</a>
-					<br/>
-					<br/>
-					<div id="bottom_message">
-						SNS and HFIR are Office of Science user facilities operated for the <a href="http://energy.gov/">U.S. Department of Enegy</a>
-						<a href="http://www.science.doe.gov/"> Office of Science</a>
-						<br/>
-						by <a href="http://www.ornl.gov/">Oak Ridge National Laboratory</a>, which is managed by the <a href="http://www.ut-battelle.org/">UT-Battelle, LLC</a>.
-					<br/><br/><span id="last_update">Last updated: <?php require_once('appvars.php'); echo LAST_UPDATE ?></span>
-					</div>
-					<br/>
-					<br/>
-					<br/>
-				</div>
-			</div>
-			<script src="scripts/jquery.js" type="text/javascript"></script>
-			<script src="scripts/ancient_lamp_scripts.js" type="text/javascript" charset="UTF-8"></script>
-			<script src="scripts/animated_background.js" type="text/javascript"></script>
-			<script src="scripts/jquery-1.3.2.min.js" type="text/javascript"></script>
-			<script src="scripts/menu_buttons.js" type"text/javascript"></script>
-			<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
-			<script src="scripts/jquery.hoverIntent.minified.js" type="text/javascript"></script>
-			<script src="scripts/jquery.kwicks-1.5.1.pack.js" type="text/javascript"></script>
-			<script src="scripts/jquery.scrollTo.js" type="text/javascript" charset="utf-8"></script>
-			<script type="text/javascript">
-				$('#myGallery').spacegallery({
-					loadingClass : 'loading'
-				});
+<?php
+require_once ('header_part1.php');
+?>
+<link rel="stylesheet" type="text/css" href="styles/ancient_lamp.css " />
+<link rel="stylesheet" media="screen" type="text/css" href="spacegallery/css/spacegallery.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="spacegallery/css/custom.css" />
+<script src="scripts/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="spacegallery/js/eye.js"></script>
+<script type="text/javascript" src="spacegallery/js/utils.js"></script>
+<script type="text/javascript" src="spacegallery/js/spacegallery.js"></script>
+<script type="text/javascript" src="spacegallery/js/layout.js"></script>
+<?php
+require_once ('header_part2.php');
+?>
 
-			</script>
-			<!-- 			<script src="scripts/my_scripts.js" type="text/javascript" charset="UTF-8"></script> -->
-	</body>
-</html>
+<br/>
+<div id="content">
+	<div class="article">
+		<div id="hr"></div>
+		<br/>
+		<br/>
+		<br/>
+		<h3>"Neutron imaging gives researchers new tools for exploring artifacts and ancient technology"</h3>
+		<p>
+			For the first time at ORNL, neutron images in three dimensions (3-D) have been taken of rare archaeological artifacts.
+			Bronze and brass artifacts excavated at the ancient city of Petra, in present day Jordan, were recently imaged in 3-D using
+			neutrons at the High Flux Isotope Reactor's CG-1D neutron imaging instrument.
+		</p>
+		<p>
+			The neutron imaging technique gives eager archeologists and ancient historians significant, and otherwise wholly inaccessible,
+			insight into the manufacturing and lives of cultures that once occupied settlements within the Roman Empire, Middle East, and Colonial-Period New England.
+		</p>
+		<p>
+			The samples imaged in 3D in August came from the collections of the Joukowsky Institute for Archaeology and the Ancient World at
+			Brown University. They include an elaborate hanging bronze oil lamp, a large Roman coin, and most charmingly a standing dog figure,
+			which might have been either a religious dedication or perhaps a toy. Although their original provenance is unknown, they are all
+			excellent examples of common metal finds from antiquity.
+		</p>
+		<p>
+			Principal investigator (PI) Krysta Ryzewski, an assistant professor of anthropology at Wayne State University, and her co-PI Brian W.
+			Sheldon, professor of engineering at Brown University, were loaned the artifacts for study from professor Susan E. Alcock, director of Brown's Joukowsky Institute.
+		</p>
+		<p>
+			In earlier work, the team conducted two-dimensional imaging of copper alloy (bronze and brass) artifacts both from Petra and from Greene Farm,
+			a colonial-period plantation in Rhode Island. The samples include artifacts from daily life: a clothing buckle, a knife, and some building hardware.
+		</p>
+		<div id="photo1" class="floating_image_left">
+			<img src='images/hassina-krysta-taking-2d-image.jpg' alt='Hassina and Krysta taking 2D image at CG1D' />
+			<p>
+				Instrument scientist Hassina Bilheux (left) and principal investigator Krysta Ryzewski, assistant professor of
+				anthropology at Wayne State University, taking 2-D images of the oil lamp artifact.
+			</p>
+		</div>
+		<p>
+			One circular object from Petra was so corroded that it was unidentifiable. But when it was imaged with neutrons, underneath was a piece of jewelry,
+			probably an earring. Petra is most famous as a trading center in ancient times, connecting the Mediterranean world with places as far away as India and China.
+			It was the capital of an independent kingdom of the Nabataeans, until the emperor Trajan incorporated it into the Roman Empire in the early second century A.D.
+		</p>
+		<p>
+			The earlier imaging and analysis resolved some questions of object identity and raised many new ones about the techniques and materials that crafts
+			people in the past used to make these objects. "We can also examine certain objects (such as the knife or the bronze lamp) to look for trace residues
+			of the oil once burned in the lamp or what the knife was used to cut" says Ryzewski.
+		</p>
+		<p>
+			"I first learned of the developing neutron imaging instruments at Oak Ridge in my conversations with Hassina Bilheux (lead instrument scientist for CG-1D).
+			At the time I was a postdoctoral fellow in archaeology and engineering at Brown. I attended a neutron imaging workshop at SNS in November 2008,
+			and became the only archaeologist to be part of the VENUS instrument development team. Brian Sheldon at Brown also joined then.
+			We have been collaborating on all of the experiments with Hassina at SNS and HFIR" she says.
+		</p>
+		<p>
+			The neutron imaging beam line is a huge step forward for these scholars. "Archaeologists and scientists can obtain relatively little information about
+			the manufacture of archaeomaterials, ancient objects, and the materials from which they are constructed from external surfaces alone",
+			says Ryzewski. "Very few historical accounts describe the construction of such objects and archaeomaterials, ancient bronzes, or ceramic vessels.
+			The only source of information about how these objects were constructed comes from their material properties and composition."
+		</p>
+		<p>
+			Archaeological objects are reviewed as unique cultural resources. Earlier analysis often entailed extracting a sample from such an object,
+			which meant damage and sometimes even wholesale destruction of an artifact so it could be mounted effectively for analysis.
+			Analysts' necessarily conservative treatment of archaeomaterials left many questions unanswered.
+		</p>
+		<p>
+			Imaging archaeological objects comprehensively and systematically with neutrons only became possible with the development of
+			the CG-1D prototype beam line. Neutron activation analysis and neutron imaging at Oak Ridge means scholars can now conduct detailed,
+			nondestructive analysis of samples. "There currently exist a vast array of archaeological objects and research questions about ancient
+			and historical technological development that can now be posed" says Ryzewski. "The CG-1D beam line has offered us an invaluable
+			alternative for performing nondestructive, noninvasive analysis."
+		</p>
+		<p>
+			CG-1D data can reveal the raw materials used, the manufacturing techniques, the historical development of alloys and composite materials
+			and the geological origins of ores and clay. On the cultural side, researchers can learn about the activities of ancient people's daily lives that such objects served.
+		</p>
+		<p>
+			"Archaeologists can now begin to precisely reconstruct past networks and patterns of resource extraction, trade and exchange, environmental
+			impacts of industrial activities on ancient landscapes, and the transmission of craft production traditions over time", Ryzewski says.
+			"These are some of the sorts of questions that our current research and experiments are designed to address."
+		</p>
+		<p>
+			The 3-D neutron imaging and quantitative analysis occurs at an instrument that is a time-of-flight beam line, with a chopper for producing pulses of
+			neutrons to take noninvasive images. Neutrons, rather than x-rays, do the work.
+		</p>
+		<p>
+			"Part of our early work was to test the parameters of the instrument and how we might need to adjust the instrumentation to suit the artifacts,
+			which tend to vary in composition, size, and density" Ryzewski says.
+		</p>
+		<div id="photo2" class="floating_image_right">
+			<img src='images/lamp-scan.jpg' alt='Photo of ancient greek lamp and radiograph of same lamp' />
+			<p>
+				Top: photo of ancient Greek lamp. Bottom: neutron radiograph of the same lamp.
+			</p>
+		</div>
+		<p>
+			"We anticipated that we would be able to see beneath the surface and find evidence of manufacturing steps (mold seams), impurities or other organic
+			inclusions in the metals, residue from the objects' use, and microstructural or compositional elements" she says.
+		</p>
+		<p>
+			Their data are still being processed, but preliminary results from the bronze lamp suggest that they will be able to see and examine aspects
+			of all of these areas of interest once the 3-D data are compiled.
+		</p>
+		<p>
+			"Our work is still in its early stages. We hope to reexamine these objects in further rounds of testing in 2012. We will expand our sample base to other
+			types of metal artifacts, perhaps some excavated from shipwrecks. We hope to examine ceramic artifacts as well", Ryzewski says.
+		</p>
+		<p>
+			More broadly, the scholars may be in a position to offer information to scientists who specialize in the conservation and stabilization of museum
+			collections. Other findings may provide insights into materials behavior of interest to materials science. "Each round of experiments raises many
+			more questions about the materials in the object and about the instrumentation itself," Ryzewski says.
+		</p>
+		<p>
+			This fall the researchers will return to HFIR to image some of the bronze objects for Bragg-edge peaks in the materials. Collaborating with
+			Ryzewski and Sheldon are Bilheux and Lakeisha Walker of SNS and Susan Herringer, a doctoral student in materials science engineering at Brown and the Joukowsky Institute.
+		</p>
+		<p>
+			The group will publish their results in both archaeological and neutron sciences academic publications. In addition,
+			they will present their initial findings at the annual Society for American Archaeology meetings in Memphis in April 2012.
+		</p>
+	</div>
+	<br/>
+	<br/>
+	<div class="tab">
+		<div id="myGallery" class="spacegallery">
+			<img src="photos/ancient_lamp/photo4.jpg" alt=""/>
+			<img src="photos/ancient_lamp/photo5.jpg" alt=""/>
+			<img src="photos/ancient_lamp/photo7.jpg" alt=""/>
+			<img src="photos/ancient_lamp/photo8.jpg" alt=""/>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<p>
+		<a id="top_of_page" href="#">Top of page</a>
+	</p>
+	<br/>
+	<br/>
+	<br/>
+<hr width="90%">
+	<?php
+require_once ('footer_part1.php');
+	?>
+	<script src="scripts/ancient_lamp_scripts.js" type="text/javascript" charset="UTF-8"></script>
+	<script type="text/javascript">
+		$('#myGallery').spacegallery({
+			loadingClass : 'loading'
+		});
+
+	</script>
+	<!-- 			<script src="scripts/my_scripts.js" type="text/javascript" charset="UTF-8"></script> -->
+	</body> </html>
