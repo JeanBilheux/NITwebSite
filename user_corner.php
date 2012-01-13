@@ -32,7 +32,7 @@
 				Soil-plant water relations, plant morphology, plant root dynamics.
 			</li>
 			<li>
-				<a href="user_corner_page.php?id=TexasA&MUniversity">Texas A\&M University (P.I. A. Strzelec)</a>
+				<a href="user_corner_page.php?id=TexasAandMUniversity">Texas A\&M University (P.I. A. Strzelec)</a>
 				<br/>
 				Diesel Particulate Filters, Sprays, Engine Parts, EGR Coolers.
 			</li>

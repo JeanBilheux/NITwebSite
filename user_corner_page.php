@@ -260,7 +260,7 @@ $goal = 'Quantitative three-dimensional distribution of hydrous phase(s) in bulk
 		if ($value == 'ORNL_ESD') {
 			$index=1;
 		}
-		if ($value == 'TexasA&MUniversity') {
+		if ($value == 'TexasAandMUniversity') {
 			$index=2;
 		}
 		if ($value == 'ORNL_MSTD') {
