@@ -15,8 +15,9 @@ a:visited {
 }
 a:hover {
 	color: red;
-	text-decoration: underline;
+/*	text-decoration: underline;*/
 }
+
 a:active {
 	color: black
 }

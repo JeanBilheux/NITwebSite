@@ -36,7 +36,7 @@
 								<a href="faq.php" title="Q&As"></a>
 							</li>
 							<li class="button-color-3">
-								<a href="#" title="Links"></a>
+								<a href="multimedia.php" title="Multimedia"></a>
 							</li>
 							<li class="button-color-4">
 								<a href="team.php" title="Meet the team"></a>
@@ -121,8 +121,8 @@
 				</div>
 			</div>
 			<div id="bottom_right">
-				<div id="tutorial"></div>
-				<div id="cg1d">
+				<a href="tutorial.php"><div id="tutorial"></div></a>
+				<a href="cg1d.php"><div id="cg1d">
 					<div class="title">
 						CG1D
 					</div>
@@ -137,8 +137,8 @@
 						<br />
 						at HFIR.
 					</div>
-				</div>
-				<div id="venus">
+				</div></a>
+				<a href="tutorial.php"><div id="venus">
 					<div class="title">
 						Venus
 					</div>
@@ -153,7 +153,7 @@
 						<br />
 						at the SNS
 					</div>
-				</div>
+				</div></a>
 			</div>
 			<!-- bottom left tab -->
 			<div id="tab">

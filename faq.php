@@ -44,57 +44,64 @@
 			<!-- faq really starts -->
 			<div id="accordion_faq">
 				<div>
-					<h3><a href="#">Category #1</a></h3>
-					<ul>
-						<li id="me">
-							<a href="#">Question #1</a>
+					<h3><a href="#">Proposal submission</a></h3>
+					<ul id='categorie1'>
+						<li id='#1'>
+							<a href="#">Who should I contact to get help in writing my proposal?</a>
 						</li>
-						<li>
-							<a href="#">Question #2</a>
+						<li id='#2'>
+							<a href="#">What is the format of a proposal and how do I submit one?</a>
 						</li>
-						<li>
-							<a href="#">Question #3</a>
-						</li>
-						<li>
-							<a href="#">Question #4</a>
+						<li id='#3'>
+							<a href="#">How long does it take between the time I submit a proposal and the time I receive notification it is approved or not?</a>
 						</li>
 					</ul>
 				</div>
 				<div>
-					<h3><a href="#">Category #2</a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
+					<h3><a href="#">Access to data/facility</a></h3>
+					<ul id='categorie2'>
+						<li id="#1">
+							<a href="#">How do I get access to the neutron facility?</a>
 						</li>
-						<li>
-							<a href="#">Question #2</a>
+						<li id="#2">
+							<a href="#">How do I access my data?</a>
 						</li>
-					</ul>
-				</div>
-				<div>
-					<h3><a href="#">Category #3</a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
+						<li id="#3">
+							<a href="#">How do I get access to neutron imaging capabilities?</a>
 						</li>
-						<li>
-							<a href="#">Question #2</a>
+						<li id="#4">
+							<a href="#">How do I request access to a Chem. Lab?</a>
 						</li>
 					</ul>
 				</div>
 				<div>
-					<h3><a href="#">Category #4</a></h3>
-					<ul>
-						<li>
-							<a href="#">Question #1</a>
+					<h3><a href="#">At the instrument</a></h3>
+					<ul id='categorie3'>
+						<li id='#1'>
+							<a href="#">When does my beam time start?</a>
 						</li>
-						<li>
-							<a href="#">Question #2</a>
+						<li id='#2'>
+							<a href="#">How many people will be available to help us at the beamline?</a>
+						</li>
+						<li id='#3'>
+							<a href="#">How long does a radiograph take?</a>
+						</li>
+						<li id='#4'>
+							<a href="#">How long does a CT scan take?</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3><a href="#">Post processing</a></h3>
+					<ul id='categorie4'>
+						<li id='#1'>
+							<a href="#">How do I reconstruct my data?</a>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div id="answers"></div>
+			<div id="answers">
+			</div>
 			<br/>
 			<hr width="90%">
 			<div id="contact">

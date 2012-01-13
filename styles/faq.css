@@ -38,13 +38,21 @@ margin-right: 40px;
 
 #faq_menu li.active li{
 	text-indent:0;
+	font-size:0.6em;
 }
 #faq_menu li li{
-	font-weight: normal;
+	font-weight:normal;
+	font-size:0.6em;
 	background:none;
 	border:0;
 /*	border-bottom: 1px dashed black;*/
 }
+
+#accordion_faq div ul li {
+	font-size: 0.8em;
+	list-style-type:circle;
+}
+
 #answers {
 	margin:40px;
 	border: 1px solid red;
@@ -62,4 +70,19 @@ margin-right: 40px;
 
 #container {
 	height: 1210px;
+}
+
+#accordion_faq ul li a:hover {
+	color: red;
+}
+
+#answers {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+span#link {
+	color: red;
+	text-decoration:underline;
 }
