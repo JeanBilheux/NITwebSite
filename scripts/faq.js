@@ -1,16 +1,15 @@
 $(document).ready(function() {
 	
 	$answers_value = ''
-	
+		
 	$('#accordion_faq').accordion({
 		header : 'h3'
 	});
 
-	function answers() {
-		alert("herererer");
-	}
-	
 	$('div ul li').click(function() {
+	
+			console.log("here");
+
 		
 		$Id = $(this).attr('id');
 		$parentId = $(this).parent().attr('id');
