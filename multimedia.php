@@ -39,10 +39,10 @@ require_once ('header_part2.php');
 <div id="real_body">
 	<!-- body really starts -->
 	<map name="planetmap">
-		<area shape="poly" coords="140,94,606,182,612,330,137,435" href="../movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
-		<area shape="poly" coords="642,163,790,108,786,214,636,309" href="../movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
-		<area shape="poly" coords="801,101,871,74,869,153,796,203" href="../movies/video3.mov?width=640&height=360" rel="prettyPhoto" />
-		<area shape="poly" coords="880,72,919,103,915,168,874,152" href="../movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="140,94,606,182,612,330,137,435" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
+		<area shape="poly" coords="642,163,790,108,786,214,636,309" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="801,101,871,74,869,153,796,203" href="movies/video3.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="880,72,919,103,915,168,874,152" href="movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
 	</map>
 	<div class="gallery clearfix">
 		<img src="images/multimedia_background.png" alt="film strip" usemap="#planetmap"/>

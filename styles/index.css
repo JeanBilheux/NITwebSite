@@ -262,21 +262,6 @@ form label {
   font-weight: bold;
 }
 
-#form {
-	padding: 20px;
-	padding-left: 150px;
-	padding-top: 50px;
-}
-
-#comments {
-	width: 400px;
-	height: 150px;
-}
-
-#email,#institute,#firstname,#lastname{
-	width: 400px;
-}
-
 h2#contact_us {
 	color: red;
 }

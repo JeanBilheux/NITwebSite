@@ -6,13 +6,12 @@
 		<title>ORNL Neutron Imaging Team</title>
 		<link rel="stylesheet" type="text/css" href="styles/index.css" />
 		<link rel="stylesheet" type="text/css" href="styles/jquery-ui-1.7.2.custom.css" />
-<!-- 		<link rel="stylesheet" type="text/css" href="styles/tabs.css" /> -->
-<!-- 		<link rel="stylesheet" type="text/css" href="styles/showroom.css" /> -->
+		<!-- 		<link rel="stylesheet" type="text/css" href="styles/tabs.css" /> -->
+		<!-- 		<link rel="stylesheet" type="text/css" href="styles/showroom.css" /> -->
 		<link rel="stylesheet" type="text/css" href="styles/contact.css" />
 	</head>
 	<body>
 		<!-- turn this on to see the page flip at the top right corner of the window -->
-		
 		<div id="container">
 			<div id="header">
 				<div id="menu">
@@ -33,24 +32,21 @@
 					</ul>
 				</div>
 			</div>
-							<div id="contact_top">
+			<div id="contact_top">
 				<a href="index.php"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 			</div>
-			
-						<div id="spacer">
-			</div>
+			<div id="spacer"></div>
 			<div id="form">
 				<h2 id="contact_us">Contact Us</h2>
 				<br />
 				<form method="post" action="send_contact_us.php">
-					<label for="firstname">First name:</label>
-					<input type="text" id="firstname" name="firstname" />
-					<br />
-					<label for="lastname">Last name:</label>
-					<input type="text" id="lastname" name="lastname" />
+					<label for="name">Your name:</label>
+					<input type="text" id="name" name="name" />
 					<br />
 					<label for="email">Your email address:</label>
-					<input type="text" id="email" name="email" />
+					<input type="text" id="email" name="email" /><span id='mandatory'>*</span>
+					<label for="email2">Confirm email:</label>
+					<input type="text" id="email2" name="email2" /><span id='mandatory'>*</span>
 					<br />
 					<label for="institute">Institute:</label>
 					<input type="text" id="institute" name="institute" />
@@ -63,14 +59,18 @@
 					<br />
 					<br />
 					<br />
-					<label for="comments">Comments:</label>
+					<label for="comments">Comments / Questions:</label>
 					<textarea id="comments" name="comments"></textarea>
+					<label for="verify">Verification:</label>
+					<input type='text' id='verify' name='verify' value='Enter the pass-phrase.' />
+					<img src="captcha.php" alt='Verification pass-phrase' / align="center" align="middle">
 					<br />
 					<br />
 					<br />
 					<input type="submit" value="Send Message" name="submit" />
 				</form>
-			</div> <!-- end of form -->
+			</div>
+			<!-- end of form -->
 			<br/>
 			<hr>
 			<div id="contact">
@@ -87,7 +87,10 @@
 					<a href="http://www.science.doe.gov/"> Office of Science</a>
 					<br/>
 					by <a href="http://www.ornl.gov/">Oak Ridge National Laboratory</a>, which is managed by the <a href="http://www.ut-battelle.org/">UT-Battelle, LLC</a>.
-					<br/><br/><span id="last_update">Last updated: <?php require_once('appvars.php'); echo LAST_UPDATE ?></span
+					<br/>
+					<br/>
+					<span id="last_update">Last updated: <?php require_once('appvars.php'); echo LAST_UPDATE
+						?></span
 				</div>
 				<br/>
 				<br/>
@@ -95,18 +98,16 @@
 			</div>
 		</div>
 		<!-- end of container -->
-		<script src="scripts/jQuery.js" type="text/javascript"></script>
+		<script src="scripts/jquery.js" type="text/javascript"></script>
 		<script src="scripts/animated_background.js" type="text/javascript"></script>
 		<script src="scripts/jquery-1.3.2.min.js" type="text/javascript"></script>
-		<script src="scripts/my_scripts.js" type="text/javascript"></script>
+		<!-- 		<script src="scripts/my_scripts.js" type="text/javascript"></script> -->
 		<script src="scripts/menu_buttons.js" type"text/javascript"></script>
 		<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
 		<script src="scripts/jquery.kwicks-1.5.1.pack.js" type="text/javascript"></script>
-		<script src="scripts/tab_scripts.js" type="text/javascript"></script>
+		<!-- 		<script src="scripts/tab_scripts.js" type="text/javascript"></script> -->
 		<script src="scripts/jquery.blend-min.js" type="text/javascript"></script>
 		<script src="scripts/jquery.hoverIntent.minified.js" type="text/javascript"></script>
 		<script src="scripts/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
-		<script src="scripts/bottom_right.js" type="text/javascript"></script>
-		<script src="scripts/showroom.js" type="text/javascript"></script>
 	</body>
 </html>

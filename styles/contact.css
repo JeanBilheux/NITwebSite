@@ -9,3 +9,21 @@ body {
 form {
 	vertical-align: text-top;
 }
+
+#form {
+	padding: 20px;
+	padding-left: 150px;
+	padding-top: 50px;
+}
+
+#comments {
+	width: 400px;
+	height: 150px;
+}
+
+#email, #institute, #name, #email2 {
+	width: 400px;
+}
+#mandatory {
+	color: red;
+}
