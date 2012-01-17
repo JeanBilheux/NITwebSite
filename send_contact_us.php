@@ -11,6 +11,11 @@
 			#confirmation {
 				height: 400px;
 			}
+			div #missing {
+				color: red;
+				padding-left: 10px;
+				font-size: 1.5em;
+			}
 		</style>
 	</head>
 	<body>
@@ -41,22 +46,75 @@
 			<div id="spacer"></div>
 			<div id="confirmation">
 				<?php
-					$first_name=$_POST['firstname'];
-					$last_name=$_POST['lastname'];
-					$email=$_POST['email'];
-					$institute=$_POST['institute'];
-					$familiar=$_POST['yes'];
-					$comments=$_POST['comments'];
-					echo $first_name;
-					echo $last_name;
-					echo $email;
-					echo $institute;
-					echo $familiar;
-					echo $comments;
-					$to='bilheuxjm@ornl.gov';
-					$subject='email test from '.$first_name.' '.$last_name;
-					$msg="Contact: email:" . $email . "\r\n" . 'Institute: ' . $institute . "\r\n Are you familiar with neutron imaging: " . $familiar . "\r\n Comments: " .$comments; 
-					mail($to,$subject,$msg,'From: '.$email);
+session_start();
+echo "<div id='missing'><br/>";
+$success=true;
+$name=$_POST['name'];
+$email=trim($_POST['email']);
+if($email=='') {
+echo "Please enter a valid email !";
+$success=false;
+}
+if($success) {
+$email_confirm=trim($_POST['email2']);
+if($email!=$email_confirm) {
+echo "Emails do not match !";
+$success=false;
+}
+}
+if($success) {
+$pass_phrase=$_SESSION['pass_phrase'];
+$user_pass_phrase=sha1($_POST['verify']);
+if(!$success&&$user_pass_phrase!=$pass_phrase) {
+echo "Invalid pass-phrase !";
+$success=false;
+}
+}
+
+$institute=$_POST['institute'];
+$familiar=$_POST['yes'];
+$comments=$_POST['comments'];
+$to='bilheuxjm@ornl.gov';
+$subject='email test from '.$name;
+$msg="Contact: email:".$email."\r\n".'Institute: '.$institute."\r\n Are you familiar with neutron imaging: ".$familiar."\r\n Comments: ".$comments;
+
+echo "</div>";
+echo '<div id="form">';
+echo '<h2 id="contact_us">Contact Us</h2><br />';
+echo '<form method="post" action="send_contact_us.php">';
+echo '<label for="name">Your name:</label>';
+echo '<input type="text" id="name" name="name" value="' . $name . '"/>';
+echo '<br />';
+echo '<label for="email">Your email address:</label>';
+echo '<input type="text" id="email" name="email value="' . $email . '"/><span id="mandatory">*</span>';
+echo '<label for="email2">Confirm email:</label>';
+echo '<input type="text" id="email2" name="email2" /><span id="mandatory">*</span>';
+echo '<br />';
+echo '<label for="institute">Institute:</label>';
+echo '<input type="text" id="institute" name="institute"' . $institute . '" />';
+echo '<br />';
+echo '<label for="neutronfamiliar">Are you familiar with neutron imaging?</label>';
+echo 'Yes';
+echo '<input id="neutronfamiliar" name="neutronfamiliar" type="radio" value="yes" />';
+echo 'No';
+echo '<input id="neutronfamiliar" name="neutronfamiliar" type="radio" value="no" />';
+echo '<br />';
+echo '<br />';
+echo '<br />';
+echo '<label for="comments">Comments / Questions:</label>';
+echo '<textarea id="comments" name="comments"></textarea>';
+echo '=<label for="verify">Verification:</label>';
+echo '<input type="text" id="verify" name="verify" value="Enter the pass-phrase." />';
+echo '<img src="captcha.php" alt="Verification pass-phrase" / align="center" align="middle">';
+echo '<br />';
+echo '<br />';
+echo '<br />';
+echo '<input type="submit" value="Send Message" name="submit" />';
+echo '</form>';
+echo '</div>';
+if($success) {
+mail($to,$subject,$msg,'From: '.$email);
+}
 				?>
 				<br/>
 				<hr>
