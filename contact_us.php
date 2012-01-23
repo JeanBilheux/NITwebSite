@@ -9,6 +9,23 @@
 		<!-- 		<link rel="stylesheet" type="text/css" href="styles/tabs.css" /> -->
 		<!-- 		<link rel="stylesheet" type="text/css" href="styles/showroom.css" /> -->
 		<link rel="stylesheet" type="text/css" href="styles/contact.css" />
+		<style type="text/css">
+			body {
+				height: 1300px;
+			}
+			#container {
+				height: 1250px;
+			}
+			#contact {
+				padding-left: 10px;
+				top: 290px;
+			}
+			hr {
+				position:relative;
+				top: 290px;
+			}
+		</style>
+
 	</head>
 	<body>
 		<!-- turn this on to see the page flip at the top right corner of the window -->
@@ -41,7 +58,7 @@
 				<br />
 				<form method="post" action="send_contact_us.php">
 					<label for="name">Your name:</label>
-					<input type="text" id="name" name="name" />
+					<input type="text" id="name" name="name" /><span id='mandatory'>*</span>
 					<br />
 					<label for="email">Your email address:</label>
 					<input type="text" id="email" name="email" /><span id='mandatory'>*</span>
