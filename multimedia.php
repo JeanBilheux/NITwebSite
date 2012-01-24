@@ -18,34 +18,26 @@ require_once ('header_part1.php');
 	li {
 		list-style: none;
 	}
-	#title h3{
-		position: relative;
-		left: 260px;
-		top: 30px;		
-		color: red;
-	}
 	#real_body {
 		position: relative;
-		top: -50px;
+		top: 0px;
 	}
 </style>
 <?php
 require_once ('header_part2.php');
 ?>
 
-<div id="title">
-	<h3>Click any of the 4 filmstrip to preview the corresponding video.</h3>
-</div>
+<br/><br/>
 <div id="real_body">
 	<!-- body really starts -->
 	<map name="planetmap">
-		<area shape="poly" coords="140,94,606,182,612,330,137,435" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
-		<area shape="poly" coords="642,163,790,108,786,214,636,309" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
-		<area shape="poly" coords="801,101,871,74,869,153,796,203" href="movies/video3.mov?width=640&height=360" rel="prettyPhoto" />
-		<area shape="poly" coords="880,72,919,103,915,168,874,152" href="movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="54,75,263,39,262,193,54,226" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
+		<area shape="poly" coords="272,38,481,76,481,230,271,193" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="489,77,699,113,701,268,490,231" href="movies/video3.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="707,114,917,78,918,232,707,268" href="movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
 	</map>
 	<div class="gallery clearfix">
-		<img src="images/multimedia_background.png" alt="film strip" usemap="#planetmap"/>
+		<img src="movies/filmstrip_version1.png" alt="film strip" usemap="#planetmap"/>
 	</div>
 	<!-- end of real body -->
 </div>

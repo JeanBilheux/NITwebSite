@@ -1,7 +1,6 @@
 <?php
 require_once('header_part1.php');
 ?>
-		<link rel="stylesheet" type="text/css" href="styles/jquery-ui-1.7.2.custom.css" />
 		<link rel="stylesheet" type="text/css" href="styles/tabs.css" />
 		<link rel="stylesheet" type="text/css" href="styles/showroom.css" />
 		<link rel="stylesheet" type="text/css" href="styles/publications.css" />

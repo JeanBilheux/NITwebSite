@@ -19,10 +19,14 @@
 	</head>
 	<body>
 		<!-- turn this on to see the page flip at the top right corner of the window -->
-		<!-- 		<div id="pageflip">
+		
+		<a href="call_for_proposal.php">
+		<div id="pageflip">
 		<img src="images/page_flip.png" alt="" />
 		<span class="msg_block">My message here</span>
-		</div> -->
+		</div>		
+		</a>
+		
 		<div id="container">
 			<div id="body">
 				<div id="header">
@@ -144,7 +148,7 @@
 						at HFIR.
 					</div>
 				</div></a>
-				<a href="tutorial.php"><div id="venus">
+				<a href="venus.php"><div id="venus">
 					<div class="title">
 						Venus
 					</div>
