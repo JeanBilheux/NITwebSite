@@ -128,7 +128,7 @@ echo '<br />';
 echo '<label for="comments">Comments / Questions:</label>';
 echo '<textarea id="comments" name="comments">' . $comments . '</textarea>';
 echo '<label for="verify">Verification:</label>';
-echo '<input type="text" id="verify" name="verify" value="Enter the pass-phrase." />';
+echo '<input type="text" id="verify" name="verify" placeholder="Enter the pass-phrase." />';
 echo '<img src="captcha.php" alt="Verification pass-phrase" / align="center" align="middle">';
 echo '<br />';
 echo '<br />';

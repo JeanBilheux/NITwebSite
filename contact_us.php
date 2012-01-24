@@ -79,7 +79,7 @@
 					<label for="comments">Comments / Questions:</label>
 					<textarea id="comments" name="comments"></textarea>
 					<label for="verify">Verification:</label>
-					<input type='text' id='verify' name='verify' value='Enter the pass-phrase.' />
+					<input type='text' id='verify' name='verify' placeholder='Enter the pass-phrase.' />
 					<img src="captcha.php" alt='Verification pass-phrase' / align="center" align="middle">
 					<br />
 					<br />
