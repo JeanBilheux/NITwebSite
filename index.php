@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="styles/index.css" />
 		<link rel="stylesheet" type="text/css" href="styles/jquery-ui-1.7.2.custom.css" />
 		<link rel="stylesheet" type="text/css" href="styles/tabs.css" />
-		<link rel="stylesheet" type="text/css" href="styles/showroom.css" />
+<!-- 		<link rel="stylesheet" type="text/css" href="styles/showroom.css" /> -->
 		<!-- used by the accordion -->
 		<!-- 		<link rel="stylesheet" href="slidorion/css/style.css" /> -->
 		<link rel="stylesheet" href="slidorion/css/slidorion.css" />
@@ -121,7 +121,13 @@
 				</div>
 			</div>
 			<div id="bottom_right">
-				<a href="tutorial.php"><div id="tutorial"></div></a>
+				<a href="tutorial.php"><div id="tutorial">
+					<div class="title">
+						Tutorial
+					</div>
+					<div class="text_info">
+					</div>
+				</div></a>
 				<a href="cg1d.php"><div id="cg1d">
 					<div class="title">
 						CG1D

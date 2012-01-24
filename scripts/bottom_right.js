@@ -14,7 +14,7 @@ $(document).ready(function() {
 	$('#tutorial').hover(function() {
 		// $(this).css({'background':'url(../images/bottom_right/venus_on.png)'})
 		$(this).css({
-			'background-image' : 'url(images/bottom_right/tutorial_on.png)'
+			'background' : 'url(images/bottom_right/tutorial_on.png)'
 		})
 	}, function() {
 		$(this).css({
