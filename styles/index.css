@@ -207,8 +207,17 @@ h4 {
 	height:450px;
 	margin-right: 30px;
 	margin-top: 20px;
-/*	border:dashed red;*/
 	position:relative;
+}
+
+#tutorial {
+	border:groove;
+}
+#cg1d {
+	border:groove;
+}
+#venus {
+	border:groove;
 }
 
 #tutorial{
