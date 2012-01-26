@@ -7,13 +7,13 @@ require_once ('header_part1.php');
 <script src="prettyPhoto_compressed_3.1.3/js/jquery-1.6.1.min.js" type="text/javascript"></script>
 <style type="text/css">
 	#container {
-		height: 1285px;
+		height: 1330px;
 	}
 	#body {
-		height: 1000px;
+		height: 1100px;
 	}
 	#real_body {
-		height: 860px;
+		height: 930px;
 	}
 	li {
 		list-style: none;
@@ -22,14 +22,23 @@ require_once ('header_part1.php');
 		position: relative;
 		top: 0px;
 	}
+	#title {
+		color: red;
+		font-size: 1.3em;
+		text-align: center;
+	}
 </style>
 <?php
 require_once ('header_part2.php');
 ?>
 
-<br/><br/>
+<br/>
+<div id="title">Click any of the filmstrip to see the video.</div>
+<br/>
 <div id="real_body">
 	<!-- body really starts -->
+
+	<!-- 	
 	<map name="planetmap">
 		<area shape="poly" coords="54,75,263,39,262,193,54,226" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
 		<area shape="poly" coords="272,38,481,76,481,230,271,193" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
@@ -38,6 +47,15 @@ require_once ('header_part2.php');
 	</map>
 	<div class="gallery clearfix">
 		<img src="movies/filmstrip_version1.png" alt="film strip" usemap="#planetmap"/>
+	</div> -->	
+	<map name="planetmap">
+		<area shape="poly" coords="87,38,238,38,201,247,47,247" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
+		<area shape="poly" coords="47,255,201,255,243,465,87,465" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="88,473,242,473,284,687,127,687" href="movies/video5.mov?width=640&height=360" rel="prettyPhoto" />
+		<area shape="poly" coords="127,691,283,691,247,900,92,900" href="movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
+	</map>
+	<div class="gallery clearfix">
+		<img src="movies/filmstrip_version2.png" alt="film strip" usemap="#planetmap"/>
 	</div>
 	<!-- end of real body -->
 </div>
