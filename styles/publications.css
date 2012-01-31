@@ -38,13 +38,21 @@ div#publications td {
 }
 
 #container {
-	height: 3190px;
+	height: 3600px;
 }
 
 #body {
-	height: 3230px;
+	height: 2000px;
 }
 
 #contact {
 	left: -25px;
+}
+
+#top_of_page {
+	position: relative;
+	font-size: 0.8em;
+	color:green;
+	padding-left: 410px;
+	top: -20px;
 }

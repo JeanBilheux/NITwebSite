@@ -21,10 +21,11 @@
 				top: 290px;
 			}
 			hr {
-				position: relative;
+				position:relative;
 				top: 290px;
 			}
 		</style>
+
 	</head>
 	<body>
 		<!-- turn this on to see the page flip at the top right corner of the window -->
@@ -52,6 +53,40 @@
 				<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a>
 			</div>
 			<div id="spacer"></div>
+			<div id="form">
+				<h2 id="contact_us">Contact Us</h2>
+				<br />
+				<form method="post" action="send_contact_us.html">
+					<label for="name">Your name:</label>
+					<input type="text" id="name" name="name" /><span id='mandatory'>*</span>
+					<br />
+					<label for="email">Your email address:</label>
+					<input type="text" id="email" name="email" /><span id='mandatory'>*</span>
+					<label for="email2">Confirm email:</label>
+					<input type="text" id="email2" name="email2" /><span id='mandatory'>*</span>
+					<br />
+					<label for="institute">Institute:</label>
+					<input type="text" id="institute" name="institute" />
+					<br />
+					<label for="neutronfamiliar">Are you familiar with neutron imaging?</label>
+					Yes
+					<input id="neutronfamiliar" name="neutronfamiliar" type="radio" value="yes" />
+					No
+					<input id="neutronfamiliar" name="neutronfamiliar" type="radio" value="no" />
+					<br />
+					<br />
+					<br />
+					<label for="comments">Comments / Questions:</label>
+					<textarea id="comments" name="comments"></textarea>
+					<label for="verify">Verification:</label>
+					<input type='text' id='verify' name='verify' placeholder='Enter the pass-phrase.' />
+					<img src="captcha.php" alt='Verification pass-phrase' / align="center" align="middle">
+					<br />
+					<br />
+					<br />
+					<input type="submit" value="Send Message" name="submit" />
+				</form>
+			</div>
 			<!-- end of form -->
 			<br/>
 			<hr>
@@ -71,7 +106,8 @@
 					by <a href="http://www.ornl.gov/">Oak Ridge National Laboratory</a>, which is managed by the <a href="http://www.ut-battelle.org/">UT-Battelle, LLC</a>.
 					<br/>
 					<br/>
-					<span id="last_update">Last updated:<!--#config timefmt="%D" --> <!--#echo var="LAST_MODIFIED" --></span
+					<span id="last_update">Last updated:<!--#config timefmt="%D" -->
+																	<!--#echo var="LAST_MODIFIED" --></span
 				</div>
 				<br/>
 				<br/>

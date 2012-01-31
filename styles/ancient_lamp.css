@@ -3,7 +3,7 @@
  ********************/
 
 body {
-	height: 3030px;
+	height: 3130px;
 }
 
 #container {
@@ -62,7 +62,7 @@ h3 {
 }
 
 #top_of_page {
-	font-size:bold small;
+	font-size:0.8em;
 	color:green;
 	padding-left: 450px;
 }
