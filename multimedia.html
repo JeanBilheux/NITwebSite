@@ -22,15 +22,31 @@
 			li {
 				list-style: none;
 			}
-			#real_body {
-				position: relative;
+ 			#real_body {
 				top: 0px;
-			}
+			}			
 			#title {
 				color: red;
 				font-size: 1.3em;
 				text-align: center;
 			}
+			#description {
+				width: 600px;
+				left: 480px;
+				top: 350px;
+				float: right;
+				position: absolute;
+				line-height: 150%;
+			}
+			#description div {
+				height: 160px;
+			}
+			div#description>div>p.title {
+				font-size: 1.2em;
+			}
+			div#description p.team {
+			}
+
 		</style>
 	</head>
 	<body>
@@ -63,28 +79,50 @@
 				Click any of the filmstrip to see the video.
 			</div>
 			<br/>
-			<div id="real_body">
-				<!-- body really starts -->
-				<!--
-				<map name="planetmap">
-				<area shape="poly" coords="54,75,263,39,262,193,54,226" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
-				<area shape="poly" coords="272,38,481,76,481,230,271,193" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
-				<area shape="poly" coords="489,77,699,113,701,268,490,231" href="movies/video3.mov?width=640&height=360" rel="prettyPhoto" />
-				<area shape="poly" coords="707,114,917,78,918,232,707,268" href="movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
-				</map>
-				<div class="gallery clearfix">
-				<img src="movies/filmstrip_version1.png" alt="film strip" usemap="#planetmap"/>
-				</div> -->
-				<map name="planetmap">
-					<area shape="poly" coords="87,38,238,38,201,247,47,247" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
-					<area shape="poly" coords="47,255,201,255,243,465,87,465" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
-					<area shape="poly" coords="88,473,242,473,284,687,127,687" href="movies/video5.mov?width=640&height=360" rel="prettyPhoto" />
-					<area shape="poly" coords="127,691,283,691,247,900,92,900" href="movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
-				</map>
-				<div class="gallery clearfix">
-					<img src="movies/filmstrip_version2.png" alt="film strip" usemap="#planetmap"/>
+			<div>
+				<div id="description">
+					<div id="video1">
+						<p class="title">
+						Neutron Computed Tomography of Ultra-High Performance Concretes.
+						</p>
+						<p class="team">
+						Team: Fei Ren (PI), Hassina Bilheux, Sophie Voisin, Lakeisha Walker.
+						</p>
+					</div>
+					<div id="video2">
+						<p class="title">
+							Neutron Computed Tomography of Ancient Bronze Dog from the Ancient City of Petra, Jordan.
+						</p>
+						<p class="team">
+							Team: Krysta Ryzewski (PI), Hassina Bilheux, Susan Herringer, Biran Sheldon, Sophie Voisin, Lakeisha Walker.
+						</p>
+					</div>
+					<div id="video3"></div>
+					<div id="video4"></div>
 				</div>
-				<!-- end of real body -->
+				<div id="real_body">
+					<!-- body really starts -->
+					<!--
+					<map name="planetmap">
+					<area shape="poly" coords="54,75,263,39,262,193,54,226" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
+					<area shape="poly" coords="272,38,481,76,481,230,271,193" href="movies/video2.mov?width=640&height=360" rel="prettyPhoto" />
+					<area shape="poly" coords="489,77,699,113,701,268,490,231" href="movies/video3.mov?width=640&height=360" rel="prettyPhoto" />
+					<area shape="poly" coords="707,114,917,78,918,232,707,268" href="movies/video4.mov?width=640&height=360" rel="prettyPhoto" />
+					</map>
+					<div class="gallery clearfix">
+					<img src="movies/filmstrip_version1.png" alt="film strip" usemap="#planetmap"/>
+					</div> -->
+					<div class="gallery clearfix">
+						<img src="movies/filmstrip_version3.png" alt="film strip" usemap="#planetmap"/>
+					</div>
+					<map name="planetmap">
+						<area shape="poly" coords="79,13,213,13,184,227,27,227" href="movies/FT_sample.mov?width=640&height=360" rel="prettyPhoto" />
+						<area shape="poly" coords="27,227,184,227,233,435,80,435" href="movies/DogStatue.mov?width=640&height=360" rel="prettyPhoto" />
+						<area shape="poly" coords="80,435,233,435,291,661,132,661" href="movies/filter.mov?width=470&height=272" rel="prettyPhoto" />
+						<area shape="poly" coords="132,661,291,661,240,881,85,881" href="movies/video3.mov?width=640&height=360" rel="prettyPhoto" />
+					</map>
+					<!-- end of real body -->
+				</div>
 			</div>
 			<br/>
 			<hr width="90%">
