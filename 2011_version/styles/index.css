@@ -1,0 +1,319 @@
+/*********************
+ * General Items
+ *********************/
+p {
+	padding-bottom: 0px;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: black
+}
+a:visited {
+	color: black
+}
+a:hover {
+	color: red;
+/*	text-decoration: underline;*/
+}
+
+a:active {
+	color: black
+}
+/******************
+ * page peel
+ ******************/
+#pageflip {
+	position: relative;
+}
+#pageflip img {
+	width: 50px;
+	height: 52px;
+	z-index: 99;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+#pageflip .msg_block {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 98;
+	right: 0;
+	top: 0;
+	background: url("../images/call_for_proposal_onglet.png") no-repeat right top;
+	text-indent: -9999px;
+}
+/*********************
+ * main document
+ ********************/
+
+body {
+	margin: 0px;
+	/*	text-align: center;*/
+	background: #0e564e;
+	/*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
+	background: #0e564e url("../images/side_background.png") no-repeat 50%;
+	margin: 0;
+}
+#container {
+	width: 950px;
+	height: 1270px;
+	background-color: #fff;
+	/*	background-color: #8acecf; */
+	background-color: #fdfde0;
+	margin: 0px auto;
+}
+#header {
+	height: 200px;
+	background: #0e564e url("../images/background_menu.png") repeat-y scroll left top;
+}
+/* Create a shadow overlay */
+#header div {
+	width: 950px;
+	height: 200px;
+	background: transparent url("../images/mask_menu_background.png") no-repeat scroll left top;
+}
+#header h3 {
+	padding-top: 20px;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: white;
+}
+
+#contact_top {
+	position: relative;
+	top: -55px;
+	left: 50px;
+	
+}
+
+#contact {
+/*	float: right;*/
+	position: relative;
+/*	top: -50px;*/
+	text-align: center;
+	padding-right: 20px;
+	font-size: small;
+	font-family: Arial, Verdana, sans-serif;
+}
+/**********************
+ * Menu buttons
+ **********************/
+
+#nav-shadow {
+	margin: 0 auto 30px auto;
+	padding: 60px 0 0 127px;
+	width: 900px;
+	min-height: 150px;
+	text-align: center;
+	/*	background: url("../images/page-shadow.jpg") top center no-repeat; */
+	list-style: none;
+}
+#nav-shadow li {
+	margin-right: 15px;
+	margin-top: 60px; /*distance from top to buttons*/
+	/*	width: 81px; */
+	width: 150px;
+	height: 85px;  /*distance between buttons and shadow*/
+	position: relative;
+	float: left;
+}
+#nav-shadow a, #nav-shadow a:visited, #nav-shadow a, #nav-shadow a:hover {
+	margin: 0 auto;
+	/*	width: 59px; */
+	width: 134px;
+	height: 59px;
+	text-indent: -9999px;
+	overflow: hidden;
+	border: 0;
+	background: url("../images/icons.png") no-repeat;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+/* Button Colors */
+
+#nav-shadow li.button-color-1 a {
+	/*background-position: -3px -3px;*/
+	background-position: +3px -3px;
+}
+#nav-shadow li.button-color-2 a {
+	/*background-position: -92px -3px; */
+	background-position: -152px -3px;
+}
+#nav-shadow li.button-color-3 a {
+	background-position: -307px -3px;
+}
+#nav-shadow li.button-color-4 a {
+	background-position: -465px -3px;
+}
+/* Button Shadow */
+
+#nav-shadow li img.shadow {
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+/**************
+ * line above showroom
+ **************/
+#hr {
+	border-bottom: 2px red;
+	/*	border-top:double red; */
+	height: 22px;
+}
+#space {
+	height: 10px;
+}
+
+#hr {
+	padding-top: 30px;
+}
+.article p {
+	text-align: left;
+	padding: 0px 20px;
+}
+h3 {
+	color: black;
+	text-align: left;
+	padding-left: 20px;
+}
+h4 {
+	color: red;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#content {
+/*	border: 3px dashed red;*/
+}
+
+#info {
+	margin: 0px;
+}
+
+.ui-tabs {
+	height: 300px
+}
+
+#bottom_right {
+	width:350px;
+	left: 580px;
+	height:450px;
+	margin-right: 30px;
+	margin-top: 20px;
+	position:relative;
+}
+
+#tutorial {
+	border:groove;
+}
+#cg1d {
+	border:groove;
+}
+#venus {
+	border:groove;
+}
+
+#tutorial{
+	background: url("../images/bottom_right/tutorial_off.png") no-repeat center;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+#tutorial .title {
+	position: relative;
+	left: -20px;
+}
+
+#cg1d {
+	background: url("../images/bottom_right/cg1d_off.png") no-repeat center;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+#venus {
+	background: url("../images/bottom_right/venus_off.png") no-repeat center;
+	width: 100%;
+	height: 150px;
+}
+
+.title {
+	position:relative;
+	font-size: 1.5em;
+	text-align: left;
+	color: green;
+	top: 20px;
+	padding-left: 50px;
+}
+
+#cg1d .title {
+	top: 10px;
+	padding-left: 240px;
+}
+
+.text_info {
+	position: relative;
+	font-size: 1em;
+	text-align: right;
+	top: 10px;
+	padding-right: 10px;
+}
+
+
+/*contact us styles */
+form label {
+  display: inline-block;
+  width: 280px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+h2#contact_us {
+	color: red;
+}
+
+/*spacer for top of articles */
+#spacer {
+	background-color: #0e564e;
+	height: 5px;
+}
+
+#contact {
+	background: url("../images/background_bottom.png") no-repeat top left;
+}
+
+#bottom_message {
+	font-size: 0.8em;
+}
+
+#ornl_link {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 125px;
+	height: 60px;
+	background-color: transparent;
+/*	border: 1px solid yellow;*/
+}
+
+#us_energy_link {
+	position: absolute;
+	top: 0px;
+	left: 750px;
+	width: 170px;
+	height: 60px;
+	background-color: transparent;
+/*	border: 1px solid yellow;*/
+}
+
+
+
+
