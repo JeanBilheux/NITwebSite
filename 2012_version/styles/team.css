@@ -1,0 +1,48 @@
+div.member {
+	border-bottom:solid blue;
+	clear: right;
+	margin: 20px;
+}
+#picture {
+	float: left;
+	width: 150px
+}
+
+div.member {
+	padding:40px;
+}
+
+p#name {
+	font-style:oblique;
+	font-size: 1.2em;
+	color: blue;
+}
+
+#description span {
+	color: green;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+#container {
+	height: 3110px;
+}
+
+div#title {
+	font-size: 1.5em;
+	margin-top: 20px;
+	border:groove;
+	position:relative;
+	left:35%;
+	width: 350px;
+	color: black;
+	text-align:center;
+}
+
+#body {
+	height: 2170px;
+}
+
+#contact {
+	height: 100px;
+}

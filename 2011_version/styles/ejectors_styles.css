@@ -1,0 +1,81 @@
+/*********************
+ * main document
+ ********************/
+
+#body {
+	height: 2100px;
+}
+
+#container {
+	width: 950px;
+	height: 1910px;
+	background-color: #fff;
+    background-color: #fdfde0 ;
+	margin: 0px auto;
+}
+
+#hr {
+	padding-top: 30px;
+}
+
+.article p {
+	text-align:left;
+	padding: 0px 20px;
+}
+
+h2 {
+	color: black;
+	text-align:center;
+	padding-left: 20px;
+}
+
+h3 {
+	color: red;
+	text-align:center;
+	padding-left: 20px;
+}
+
+#photo1 {
+	}
+
+.floating_image_left {
+	font-style:italic;
+	text-align:left;
+	clear: left;
+	float: left;
+	margin: 20px;
+	width:400px;
+}
+	
+.floating_image_right {
+	font-style:italic;
+	text-align:left;
+	clear: right;
+	float: right;
+	margin: 20px 0px 0px 20px;
+	width:400px;
+}
+
+#photo2 {
+	width:300px;
+}
+
+#bottom_page {
+	height: 20px;	
+}
+
+blockquote {
+	float:left;
+	width:200px;
+	color: red;
+	background-color: #fff;
+}
+
+q {
+	font-style:italic;
+}
+
+#top_of_page {
+	font-size:small;
+	color:red;
+}
