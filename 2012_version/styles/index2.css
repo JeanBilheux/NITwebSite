@@ -1,0 +1,86 @@
+body {
+	margin: 0px;
+	/*	text-align: center;*/
+	background: #0e564e;
+	/*	background: #0e564e url("../images/side_background.png") no-repeat 50%; */
+	background: #0e564e url("../images/side_background.png") no-repeat 50%;
+	margin: 0;
+}
+#container {
+	width: 950px;
+	height: 1270px;
+	background-color: #fff;
+	/*	background-color: #8acecf; */
+	background-color: #0e564e;
+	margin: 0px auto;
+}
+#above_menu {
+	height: 20px;
+}
+#menu {
+	height: 80px;
+	background: url("../images/bgMenu.png") repeat-x;
+	margin: 0;
+	padding: 0;
+}
+#menu_buttons {
+	list-style: none;
+	margin-left: 35px;
+}
+ul#menu_buttons li {
+	float: left;
+}
+ul#menu_buttons li a {
+	background: url("../images/buttonsMenu.png") no-repeat scroll top left;
+	display: block;
+	height: 80px;
+	position: relative;
+}
+
+ul#menu_buttons li a.home {
+	width: 159px;
+}
+ul#menu_buttons li a.publications {
+	width: 155px;
+	background-position: -161px 0px;
+}
+ul#menu_buttons li a.faqs {
+	width: 148px;
+	background-position: -325px 0px;
+}
+ul#menu_buttons li a.multimedia {
+	width: 152px;
+	background-position: -477px 0px;
+}
+ul#menu_buttons li a.theteam {
+	width: 155px;
+	background-position: -635px 0px;
+}
+ul#menu_buttons li a span {
+	background: url("../images/buttonsMenu.png") no-repeat scroll bottom left;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+}
+ul#menu_buttons li a.home span {
+	background-position: 0px -81px;
+}
+ul#menu_buttons li a.publications span {
+	background-position: -161px -81px
+}
+ul#menu_buttons li a.faqs span {
+	background-position: -325px -81px
+}
+ul#menu_buttons li a.multimedia span {
+	background-position: -477px -81px
+}
+ul#menu_buttons li a.theteam span {
+	background-position: -635px -81px
+}
+ul#menu_buttons li a span:hover {
+	cursor: pointer;
+}

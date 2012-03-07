@@ -21,31 +21,7 @@ a:hover {
 a:active {
 	color: black
 }
-/******************
- * page peel
- ******************/
-#pageflip {
-	position: relative;
-}
-#pageflip img {
-	width: 50px;
-	height: 52px;
-	z-index: 99;
-	position: absolute;
-	right: 0;
-	top: 0;
-	-ms-interpolation-mode: bicubic;
-}
-#pageflip .msg_block {
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	z-index: 98;
-	right: 0;
-	top: 0;
-	background: url("../images/call_for_proposal_onglet.png") no-repeat right top;
-	text-indent: -9999px;
-}
+
 /*********************
  * main document
  ********************/
@@ -87,62 +63,6 @@ a:active {
  * Menu buttons
  **********************/
 
-#nav-shadow {
-	margin: 0 auto 30px auto;
-	padding: 60px 0 0 127px;
-	width: 900px;
-	min-height: 150px;
-	text-align: center;
-	/*	background: url("../images/page-shadow.jpg") top center no-repeat; */
-	list-style: none;
-}
-#nav-shadow li {
-	margin-right: 15px;
-	margin-top: 60px; /*distance from top to buttons*/
-	/*	width: 81px; */
-	width: 150px;
-	height: 85px;  /*distance between buttons and shadow*/
-	position: relative;
-	float: left;
-}
-#nav-shadow a, #nav-shadow a:visited, #nav-shadow a, #nav-shadow a:hover {
-	margin: 0 auto;
-	/*	width: 59px; */
-	width: 134px;
-	height: 59px;
-	text-indent: -9999px;
-	overflow: hidden;
-	border: 0;
-	background: url("../images/icons.png") no-repeat;
-	display: block;
-	position: relative;
-	z-index: 2;
-}
-/* Button Colors */
-
-#nav-shadow li.button-color-1 a {
-	/*background-position: -3px -3px;*/
-	background-position: +3px -3px;
-}
-#nav-shadow li.button-color-2 a {
-	/*background-position: -92px -3px; */
-	background-position: -152px -3px;
-}
-#nav-shadow li.button-color-3 a {
-	background-position: -307px -3px;
-}
-#nav-shadow li.button-color-4 a {
-	background-position: -465px -3px;
-}
-/* Button Shadow */
-
-#nav-shadow li img.shadow {
-	margin: 0 auto;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	z-index: 1;
-}
 
 /**************
  * line above showroom
