@@ -19,13 +19,14 @@ body {
 }
 #menu {
 	height: 80px;
-	background: url("../images/bgMenu.png") repeat-x;
+/*	background: url("../images/bgMenu.png") repeat-x;*/
+	background: url("../images/bgMenu2.png") no-repeat;
 	margin: 0;
 	padding: 0;
 }
 #menu_buttons {
 	list-style: none;
-	margin-left: 35px;
+	margin-left: 141px;
 }
 ul#menu_buttons li {
 	float: left;
