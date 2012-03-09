@@ -85,3 +85,8 @@ ul#menu_buttons li a.theteam span {
 ul#menu_buttons li a span:hover {
 	cursor: pointer;
 }
+
+img {
+	border: 0;
+}
+
