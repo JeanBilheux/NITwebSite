@@ -8,10 +8,10 @@ body {
 
 #container {
 	width: 950px;
-	height: 3015px;
-	background-color: #fff;
-    background-color: #fdfde0 ;
-	margin: 0px auto;
+	height: 3315px;
+/*	background-color: #fff;
+    background-color: #fdfde0 ;*/
+   	margin: 0px auto;
 }
 
 #hr {
