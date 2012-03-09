@@ -20,7 +20,7 @@
 			}
 			.accordion {
 				border: 1px solid #ccc;
-				width: 60%;
+				width: 100%;
 			}
 			.accordion li h3 a {
 				background: #666;
@@ -58,17 +58,65 @@
 			.accordion .panel {
 				padding: 10px;
 			}
+			
+			
 			#tab1 {
 				text-align: center
 			}
-			
-			div>ul>li>ul {
+			div > ul > li > ul {
 				list-style-image: url("images/bullet.gif");
+				height: 500px;
 			}
-			div#tab>ul {
+			div#tab > ul {
 				background: #fff
 			}
 			
+			#garagedoor {
+				margin-top: 40px;
+				list-style: none;
+				background: url(images/bottom_right/GarageMenu.png);
+				width: 260px;
+				overflow: auto;
+			}
+			#garagedoor li {
+				width: 300px;
+				height: 150px;
+				position:relative;
+				left: -40px;
+				display: block;
+				float: left;
+				padding-bottom: 15px;
+			}
+			#garagedoor li#shutter1 {
+				background: url(images/bottom_right/tutorial.png) no-repeat;
+			}
+			#garagedoor li#shutter2 {
+				background: url(images/bottom_right/venus.png) no-repeat;
+			}
+			#garagedoor li#shutter3 {
+				background: url(images/bottom_right/cg1d.png) no-repeat;
+			}
+			#garagedoor a {
+				width: 300px;
+				height: 150px;
+				position: absolute;
+				display: block;
+				background: url(images/bottom_right/window.png) no-repeat bottom center;
+				text-indent: -9999px;
+			}
+			div#tab {
+				float: left;
+				width: 540px;
+/*				border:dashed*/
+} 
+			div#garage {
+				float: right;
+				width: 300px;
+				padding-right: 30px;
+/*				position: relative;*/
+/*				top: -570px;*/
+/*				left: 270px;*/
+			}
 		</style>
 	</head>
 	<body>
@@ -219,32 +267,44 @@
 						<li>
 							<h3>User Corner</h3>
 							<ul class="panel loading">
-									<li>
-										<a href="user_corner_page.html?id=TexasTechUniversity">Texas Tech University (P.I. J. Horita)</a>
-										<br/>
-										Understanding fluid-rock interactions under subsurface conditions.
-									</li>
-									<li>
-										<a href="user_corner_page.html?id=ORNL_ESD">Environment Sciences Division (P.I. J. Warren)</a>
-										<br/>
-										Soil-plant water relations, plant morphology, plant root dynamics.
-									</li>
-									<li>
-										<a href="user_corner_page.html?id=TexasAandMUniversity">Texas A\&M University (P.I. A. Strzelec)</a>
-										<br/>
-										Diesel Particulate Filters, Sprays, Engine Parts, EGR Coolers.
-									</li>
-									<li>
-										<a href="user_corner_page.html?id=ORNL_MSTD">Materials Science\&Technology Division (P.I. Fei Ren)</a>
-										<br/>
-										Investigation of hydrous phase distribution in ultra high performance concretes.
-									</li>
-									<li>
-										...
-									</li>
-								</ul>
+								<li>
+									<a href="user_corner_page.html?id=TexasTechUniversity">Texas Tech University (P.I. J. Horita)</a>
+									<br/>
+									Understanding fluid-rock interactions under subsurface conditions.
+								</li>
+								<li>
+									<a href="user_corner_page.html?id=ORNL_ESD">Environment Sciences Division (P.I. J. Warren)</a>
+									<br/>
+									Soil-plant water relations, plant morphology, plant root dynamics.
+								</li>
+								<li>
+									<a href="user_corner_page.html?id=TexasAandMUniversity">Texas A\&M University (P.I. A. Strzelec)</a>
+									<br/>
+									Diesel Particulate Filters, Sprays, Engine Parts, EGR Coolers.
+								</li>
+								<li>
+									<a href="user_corner_page.html?id=ORNL_MSTD">Materials Science\&Technology Division (P.I. Fei Ren)</a>
+									<br/>
+									Investigation of hydrous phase distribution in ultra high performance concretes.
+								</li>
+								<li>
+									...
+								</li>
+							</ul>
 						</li>
-</ul>
+					</ul>
+				</div>
+				
+				<div id="garage"><ul id="garagedoor"><li id="shutter1">
+							<a href="#1">Link 1</a>
+						</li>
+						<li id="shutter2">
+							<a href="#2">Link 2</a>
+						</li>
+						<li id="shutter3">
+							<a href="#3">Link 3</a>
+						</li>
+					</ul>
 				</div>
 				<br/>
 				<hr width="95%">
@@ -276,6 +336,8 @@
 			<script src="slidorion/js/jquery.easing.js"></script>
 			<script src="slidorion/js/jquery.slidorion.js"></script>
 			<script src="accordion/js/jquery.accordion.2.0.js"></script>
+			<script src="GarageDoorMenu/js/modernizr-1.5.min.js"></script>
+			<script src="GarageDoorMenu/js/jquery.backgroundPosition.js"></script>
 			<script type="text/javascript">
 				$(function() {
 					// set opacity to nill on page load
@@ -308,6 +370,23 @@
 				$('#example1').accordion();
 				$(".loading").removeClass("loading");
 
+			</script>
+			<script>
+				$(function() {
+
+	// Set CSS for old versions of Firefox (Required to use the backgroundPosition js)
+	$('#shutter1').css({backgroundPosition: '0px 0px'});
+	$('#shutter2').css({backgroundPosition: '0px 0px'});
+	$('#shutter3').css({backgroundPosition: '0px 0px'});
+
+	// Animate the Shutter
+	$("#garagedoor a").hover(function(){
+	      $(this).parent().stop().animate({backgroundPosition: '(0px -150px)'}, 500);
+	    }, function() {
+	      $(this).parent().stop().animate({backgroundPosition: '(0px 0px)'}, 500);
+	});
+
+ });
 			</script>
 	</body>
 </html>
