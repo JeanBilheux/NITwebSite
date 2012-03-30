@@ -29,7 +29,7 @@
             "canOpenMultiple": false,
             "canToggle": false,
             "activeClassPanel": "open",
-            "activeClassLi": "active",
+            "activeClassLi": "active", //add this class the the <li> to make it open at start up
             "lockedClass": "locked",
             "loadingClass": "loading"
         };

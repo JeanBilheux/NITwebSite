@@ -58,7 +58,7 @@
 			.accordion .panel {
 				padding: 10px;
 			}
-			#tab1 {
+			#tab3 {
 				text-align: center
 			}
 			div > ul > li > ul {
@@ -122,6 +122,11 @@
 			div#contact {
 				clear: left;
 			}
+			span#underline {
+				text-decoration: underline;
+				color: red;
+			}
+			
 
 		</style>
 	</head>
@@ -227,50 +232,6 @@
 				<div id="tab">
 					<ul id="example1" class="accordion">
 						<li id="tab1">
-							<h3>In The News</h3>
-							<ul class="loading panel">
-								<p>
-									<a href="ancient_lamp.html"> <img src="images/articles/ArchaeologyMagazine.png" border=0 alt="January/February 2012 edition of Archeology Magazine" width="300px" height="300px" />
-									<div id="contain">
-										The January/February edition of Archaeology Magazine features
-										<br />
-										an article about the "Genie lamp experiment"
-									</div> </a>
-								</p>
-							</ul>
-						</li>
-						<li>
-							<h3>On The Road Again</h3>
-							<ul class="panel loading">
-								<p id="about">
-									<a href="http://ceramics.org/meetings/electronic-materials-and-applications-2012/ema-2012-registration"><img src="images/ema.jpg" alt='Electronic Materials and Applications' border=0 width="450" /></a>
-									<br/>
-									We will participate to the Electronic Materials and Applications 2012.
-									<ul>
-										<li>
-											<b>Session:</b> Interfacial Processes and In Situ Methods for Energy Storage Materials and Devices II.
-										</li>
-										<li>
-											<b>Talk:</b> 2:00PM - Neutron Computed Tomography of Lithium Distribution in Porous Carbon Foams and Discharged Li-Air
-											Cathodes (Invited Speaker)
-										</li>
-										<li>
-											Authors:<b>Hassina Bilheux</b>, Jagjit Nanda, Sophie Voisin, Gabriel Veith, Lakeisha Walker,
-											Srikanth Allu, Sreekanth Pannala, Partha Mukherjee, Nancy Dudney, Oak Ridge National Laboratory, USA.
-										</li>
-									</ul>
-									<hr id="hr_tab">
-									<br />
-									<a href="http://itmnr-7.com"><img id="itmnr_7" border=0 align="left" src="images/ITMNR-7.png" alt="ITMNR-7" width="200px" /></a>
-									<b>International Society for Neutron Radiography. 7th International Topical Meeting on Neutron Radiography</b>
-									16-24 June 2012 - Kingston, Ontario, Canada.
-									<br/>
-									<br/>
-									Applications and Imaging for Neutron Radiology and Tomography.
-								</p>
-							</ul>
-						</li>
-						<li>
 							<h3>User Corner</h3>
 							<ul class="panel loading">
 								<ul>
@@ -303,7 +264,51 @@
 									</li>
 								</ul>
 								<p>
-									<a href="user_corner_page.html">Read more...</a>
+									<span id="underline"><a href="user_corner_page.html">Read more...</a></span>
+								</p>
+							</ul>
+
+						</li> 						<li>
+						<h3>On The Road Again</h3>
+							<ul class="panel loading">
+								<p id="about">
+									<a href="http://ceramics.org/meetings/electronic-materials-and-applications-2012/ema-2012-registration"><img src="images/ema.jpg" alt='Electronic Materials and Applications' border=0 width="450" /></a>
+									<br/>
+									We will participate to the Electronic Materials and Applications 2012.
+									<ul>
+										<li>
+											<b>Session:</b> Interfacial Processes and In Situ Methods for Energy Storage Materials and Devices II.
+										</li>
+										<li>
+											<b>Talk:</b> 2:00PM - Neutron Computed Tomography of Lithium Distribution in Porous Carbon Foams and Discharged Li-Air
+											Cathodes (Invited Speaker)
+										</li>
+										<li>
+											Authors:<b>Hassina Bilheux</b>, Jagjit Nanda, Sophie Voisin, Gabriel Veith, Lakeisha Walker,
+											Srikanth Allu, Sreekanth Pannala, Partha Mukherjee, Nancy Dudney, Oak Ridge National Laboratory, USA.
+										</li>
+									</ul>
+									<hr id="hr_tab">
+									<br />
+									<a href="http://itmnr-7.com"><img id="itmnr_7" border=0 align="left" src="images/ITMNR-7.png" alt="ITMNR-7" width="200px" /></a>
+									<b>International Society for Neutron Radiography. 7th International Topical Meeting on Neutron Radiography</b>
+									16-24 June 2012 - Kingston, Ontario, Canada.
+									<br/>
+									<br/>
+									Applications and Imaging for Neutron Radiology and Tomography.
+								</p>
+							</ul>
+						</li>
+						<li id="tab3" class="active">
+							<h3>In The News</h3>
+							<ul class="loading panel">
+								<p>
+									<a href="ancient_lamp.html"> <img src="images/articles/ArchaeologyMagazine.png" border=0 alt="January/February 2012 edition of Archeology Magazine" width="300px" height="300px" />
+									<div id="contain">
+										The January/February edition of Archaeology Magazine features
+										<br />
+										an article about the "Genie lamp experiment"
+									</div> </a>
 								</p>
 							</ul>
 						</li>
@@ -384,6 +389,7 @@
 					$('#slidorion').slidorion();
 				});
 				$('#example1').accordion();
+				
 				$(".loading").removeClass("loading");
 
 			</script>
