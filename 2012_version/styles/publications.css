@@ -13,7 +13,7 @@ div#publications table td {
 
 span#title {
 	font-size:1.2em;
-	color: red;
+	color: white;
 	padding-left: 0;
 }
 
@@ -23,7 +23,7 @@ span#subtitle {
 
 span#author {
 /*	font-size:0.8em;*/
-	color: blue;
+	color: #cc7c7c;
 }
 div#publications table td#description {
 	padding-left: 20px;
@@ -31,10 +31,6 @@ div#publications table td#description {
 
 table {
 	width: 95%;
-}
-
-div#publications td {
-	border-bottom: solid 1px red;
 }
 
 #container {
@@ -55,4 +51,12 @@ div#publications td {
 	color:green;
 	padding-left: 410px;
 	top: -20px;
+}
+
+table td#logo {
+	width: 200px;
+}
+
+#top_of_page {
+	color: yellow
 }
