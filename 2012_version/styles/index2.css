@@ -18,7 +18,7 @@ body {
 	height: 20px;
 }
 #menu {
-	height: 80px;
+	height: 60px;  /*80px*/
 /*	background: url("../images/bgMenu.png") repeat-x;*/
 /*	background: url("../images/bgMenu2.png") no-repeat;*/
 	margin: 0;
@@ -32,9 +32,10 @@ ul#menu_buttons li {
 	float: left;
 }
 ul#menu_buttons li a {
-	background: url("../images/buttonsMenu.png") no-repeat scroll top left;
+/*	background: url("../images/buttonsMenu.png") no-repeat scroll top left;*/
+	background: url("../images/buttonsMenuMiniVersion.png") no-repeat scroll top left;
 	display: block;
-	height: 80px;
+	height: 55px;  /*80px*/
 	position: relative;
 }
 
@@ -58,7 +59,7 @@ ul#menu_buttons li a.theteam {
 	background-position: -635px 0px;
 }
 ul#menu_buttons li a span {
-	background: url("../images/buttonsMenu.png") no-repeat scroll bottom left;
+	background: url("../images/buttonsMenuMiniVersion.png") no-repeat scroll bottom left;
 	display: block;
 	position: absolute;
 	top: 0;
@@ -68,19 +69,19 @@ ul#menu_buttons li a span {
 	z-index: 100;
 }
 ul#menu_buttons li a.home span {
-	background-position: 0px -81px;
+	background-position: 0px -55px;
 }
 ul#menu_buttons li a.publications span {
-	background-position: -161px -81px
+	background-position: -161px -55px
 }
 ul#menu_buttons li a.faqs span {
-	background-position: -325px -81px
+	background-position: -325px -55px
 }
 ul#menu_buttons li a.multimedia span {
-	background-position: -477px -81px
+	background-position: -477px -55px
 }
 ul#menu_buttons li a.theteam span {
-	background-position: -635px -81px
+	background-position: -635px -55px
 }
 ul#menu_buttons li a span:hover {
 	cursor: pointer;
