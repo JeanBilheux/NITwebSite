@@ -19,7 +19,7 @@ $(document).ready(function() {
 		switch ($parentId_Id)
 		{
 			case 'categorie1_#1':
-			$answer_value = 'The <a href="team.html"><span id="link">instrument scientist</span></a> is the person you should contact to get first to verify that neutrons are suited for your application and he/she can help in writing your proposal.';
+			$answer_value = 'The <a href="team.html"><span id="link">instrument scientist</span></a> is the person you should contact to discuss your research. He/she can help you write your proposal.';
 			break;
 			case 'categorie1_#2':
 			$answer_value = "The proposal format can be found <a href='http://neutrons.ornl.gov/users/become.shtml#register'><span id='link'>here</span></a>.";
