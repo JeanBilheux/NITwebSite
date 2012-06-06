@@ -6,6 +6,10 @@
 	height: 2100px;
 }
 
+div {
+	color: black;
+}
+
 #container {
 	width: 950px;
 	height: 1910px;
