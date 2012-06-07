@@ -68,56 +68,10 @@
 			div#tab > ul {
 				background: #fff
 			}
-			#garagedoor {
-				margin-top: 40px;
-				list-style: none;
-				background: url(images/bottom_right/GarageMenu.png);
-				width: 260px;
-				overflow: hidden;
-			}
-			#garagedoor li {
-				width: 300px;
-				height: 150px;
-				position: relative;
-				left: -40px;
-				display: block;
-				float: left;
-				-webkit-transition: background-position 0.6s ease;
-				-moz-transition: background-position 0.6s ease;
-				padding-bottom: 15px;
-			}
-			#garagedoor li:hover {
-				background-position: 0 -200px !important;
-			}
-			#garagedoor li#shutter1 {
-				background: url(images/bottom_right/tutorial.png) no-repeat;
-			}
-			#garagedoor li#shutter2 {
-				background: url(images/bottom_right/venus.png) no-repeat;
-			}
-			#garagedoor li#shutter3 {
-				background: url(images/bottom_right/cg1d.png) no-repeat;
-			}
-			#garagedoor a {
-				width: 300px;
-				height: 150px;
-				position: absolute;
-				display: block;
-				background: url(images/bottom_right/window.png) no-repeat bottom center;
-				text-indent: -9999px;
-			}
 			div#tab {
 				float: left;
 				width: 540px;
 				/*				border:dashed*/
-			}
-			div#garage {
-				float: right;
-				width: 300px;
-				padding-right: 30px;
-				/*				position: relative;*/
-				/*				top: -570px;*/
-				/*				left: 270px;*/
 			}
 			div#contact {
 				clear: left;
@@ -126,7 +80,9 @@
 				text-decoration: underline;
 				color: red;
 			}
-			
+			table#bottom_right_menu td {
+				height: 200px;
+			}
 
 		</style>
 	</head>
@@ -232,65 +188,30 @@
 				<div id="tab">
 					<ul id="example1" class="accordion">
 						<li id="tab1">
-							<h3>User Corner</h3>
+							<h3>User Testimonials</h3>
 							<ul class="panel loading">
-								<ul>
-									<li>
-										<!--<a href="user_corner_page.html?id=TexasTechUniversity">-->
-										Texas Tech University (P.I. J. Horita) <!-- </a> -->
-										<br/>
-										Understanding fluid-rock interactions under subsurface conditions.
-									</li>
-									<br/>
-									<li>
-										<!--<a href="user_corner_page.html?id=ORNL_ESD">-->
-										Environment Sciences Division (P.I. J. Warren) <!--</a>-->
-										<br/>
-										Soil-plant water relations, plant morphology, plant root dynamics.
-									</li>
-									<br/>
-									<li>
-										<!--<a href="user_corner_page.html?id=TexasAandMUniversity">-->
-										Texas A\&M University (P.I. A. Strzelec) <!--</a>-->
-										<br/>
-										Diesel Particulate Filters, Sprays, Engine Parts, EGR Coolers.
-									</li>
-									<br/>
-									<li>
-										<!--<a href="user_corner_page.html?id=ORNL_MSTD">-->
-										Materials Science\&Technology Division (P.I. Fei Ren) <!--</a>-->
-										<br/>
-										Investigation of hydrous phase distribution in ultra high performance concretes.
-									</li>
-									<br/>
-									<li>
-										...
-									</li>
-								</ul>
-								<p>
-									<span id="underline"><a href="user_corner_page.html">Read more...</a></span>
-								</p>
+								<a href="user_corner_page.html">Waiting for Hassina's Feedback</a>
 							</ul>
-
-						</li> 						<li>
-						<h3>On The Road Again</h3>
+						</li>
+						<li>
+							<h3>Past, Present and Future Events</h3>
 							<ul class="panel loading">
 								<p id="about">
 									<!-- <a href="http://ceramics.org/meetings/electronic-materials-and-applications-2012/ema-2012-registration"><img src="images/ema.jpg" alt='Electronic Materials and Applications' border=0 width="450" /></a>
 									<br/>
 									We will participate to the Electronic Materials and Applications 2012.
 									<ul>
-										<li>
-											<b>Session:</b> Interfacial Processes and In Situ Methods for Energy Storage Materials and Devices II.
-										</li>
-										<li>
-											<b>Talk:</b> 2:00PM - Neutron Computed Tomography of Lithium Distribution in Porous Carbon Foams and Discharged Li-Air
-											Cathodes (Invited Speaker)
-										</li>
-										<li>
-											Authors:<b>Hassina Bilheux</b>, Jagjit Nanda, Sophie Voisin, Gabriel Veith, Lakeisha Walker,
-											Srikanth Allu, Sreekanth Pannala, Partha Mukherjee, Nancy Dudney, Oak Ridge National Laboratory, USA.
-										</li>
+									<li>
+									<b>Session:</b> Interfacial Processes and In Situ Methods for Energy Storage Materials and Devices II.
+									</li>
+									<li>
+									<b>Talk:</b> 2:00PM - Neutron Computed Tomography of Lithium Distribution in Porous Carbon Foams and Discharged Li-Air
+									Cathodes (Invited Speaker)
+									</li>
+									<li>
+									Authors:<b>Hassina Bilheux</b>, Jagjit Nanda, Sophie Voisin, Gabriel Veith, Lakeisha Walker,
+									Srikanth Allu, Sreekanth Pannala, Partha Mukherjee, Nancy Dudney, Oak Ridge National Laboratory, USA.
+									</li>
 									</ul>
 									<hr id="hr_tab"> -->
 									<br />
@@ -304,7 +225,7 @@
 							</ul>
 						</li>
 						<li id="tab3" class="active">
-							<h3>In The News</h3>
+							<h3>Highlights of the Month</h3>
 							<ul class="loading panel">
 								<p>
 									<a href="ancient_lamp.html"> <img src="images/articles/ArchaeologyMagazine.png" border=0 alt="January/February 2012 edition of Archeology Magazine" width="300px" height="300px" />
@@ -318,19 +239,17 @@
 						</li>
 					</ul>
 				</div>
-				<div id="garage">
-					<ul id="garagedoor">
-						<li id="shutter1">
-							<a href="tutorial.html">Link 1</a>
-						</li>
-						<li id="shutter2">
-							<a href="venus.html">Link 2</a>
-						</li>
-						<li id="shutter3">
-							<a href="cg1d.html">Link 3</a>
-						</li>
-					</ul>
-				</div>
+				<table id="bottom_right_menu">
+					<tr>
+						<td><a href="tutorial.html"><img src="images/new_tutorial_button.png"></a></td>
+					</tr>
+					<tr>
+						<td><a href="cg1d.html"><img src="images/new_cg1d_button.png"></a></td>
+					</tr>
+					<tr>
+						<td><a href="venus.html"><img src="images/new_venus_button.png"></a></td>
+					</tr>
+				</table>
 				<br/>
 				<div id="contact">
 					<hr width="95%">
@@ -361,8 +280,8 @@
 			<script src="slidorion/js/jquery.easing.js"></script>
 			<script src="slidorion/js/jquery.slidorion.js"></script>
 			<script src="accordion/js/jquery.accordion.2.0.js"></script>
-			<script src="GarageDoorMenu/js/modernizr-1.5.min.js"></script>
-			<script src="GarageDoorMenu/js/jquery.backgroundPosition.js"></script>
+			<!-- 			<script src="GarageDoorMenu/js/modernizr-1.5.min.js"></script>
+			<script src="GarageDoorMenu/js/jquery.backgroundPosition.js"></script> -->
 			<script type="text/javascript">
 				$(function() {
 					// set opacity to nill on page load
@@ -393,7 +312,7 @@
 					$('#slidorion').slidorion();
 				});
 				$('#example1').accordion();
-				
+
 				$(".loading").removeClass("loading");
 
 			</script>
