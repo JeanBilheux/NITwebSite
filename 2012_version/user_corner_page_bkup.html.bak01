@@ -52,23 +52,7 @@
 			}
 
 		</style>
-	
-
-<!-- Start visualslideshow.com HEAD section -->
-<link rel="stylesheet" type="text/css" href="engine/css/slideshow.css" media="screen" /> 
-<style type="text/css">.slideshow a#vlb{display:none}</style> 
-<script type="text/javascript" src="engine/js/mootools.js"></script> 
-<script type="text/javascript" src="engine/js/visualslideshow.js"></script> 
-<!-- End visualslideshow.com HEAD section -->
-
-
-
-<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" media="screen" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
-<!-- End WOWSlider.com HEAD section -->
-
-</head>
+	</head>
 	<body>
 		<div id="container">
 			<div id="above_menu"></div>
@@ -219,51 +203,7 @@
 				</div>
 			</div>
 			<hr width=95%>
-
-
-
-
-<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-<li><img src="data1/images/photo1.jpg" alt="Photo1" title="Photo1" id="wows1_0"/>this is the description of photo 1</li>
-<li><img src="data1/images/photo2.jpg" alt="Photo2" title="Photo2" id="wows1_1"/>this is the description of photo 2</li>
-<li><img src="data1/images/photo3.jpg" alt="photo3" title="photo3" id="wows1_2"/>this is the description of photo 3
-</li>
-<li><img src="data1/images/photo4.jpg" alt="photo4" title="photo4" id="wows1_3"/>this is the description of photo 4
-</li>
-<li><img src="data1/images/photo5.jpg" alt="photo5" title="photo5" id="wows1_4"/>this is the description of photo 5.... .png
-</li>
-</ul></div>
-<div class="ws_bullets"><div>
-<a href="#" title="Photo1"><img src="data1/tooltips/photo1.jpg" alt="Photo1"/>1</a>
-<a href="#" title="Photo2"><img src="data1/tooltips/photo2.jpg" alt="Photo2"/>2</a>
-<a href="#" title="photo3"><img src="data1/tooltips/photo3.jpg" alt="photo3"/>3</a>
-<a href="#" title="photo4"><img src="data1/tooltips/photo4.jpg" alt="photo4"/>4</a>
-<a href="#" title="photo5"><img src="data1/tooltips/photo5.jpg" alt="photo5"/>5</a>
-</div></div>
-<a class="wsl" href="http://wowslider.com">Horizontal Photo Slider by WOWSlider.com v2.3m</a>
-	<a href="#" class="ws_frame"></a>
-	<div class="ws_shadow"></div>
-	</div>
-	<script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
-<!-- End WOWSlider.com BODY section -->
-
-<div id="slideshow_here">
-	
-	
-	
-	
-</div>			
-
-
-
-
-
-
-
-<div id="contact">
+			<div id="contact">
 				<a id="ornl_link" href="http://www.ornl.gov/"></a>
 				<a id="us_energy_link" href="http://science.energy.gov/"></a>
 				<!-- 				<a href="index.html"><img src='images/home.png' alt='Home' align=center width="30" /></a> -->
